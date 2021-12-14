@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import AuthContextProvider from "./contexts/authContext";
 import ProductsContextProvider from "./contexts/productsContext";
