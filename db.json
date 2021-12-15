@@ -1,0 +1,683 @@
+{
+  "payment": [
+    {
+      "email": "sereuspro94@gmail.com",
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1
+          },
+          "count": 2,
+          "subPrice": 6200
+        },
+        {
+          "item": {
+            "brand": "PATEK PHILIPPE GENEVE",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 7100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 3
+          },
+          "count": 1,
+          "subPrice": 7100
+        }
+      ],
+      "totalPrice": 13300,
+      "number": "123123",
+      "address": "123213",
+      "id": 1
+    },
+    {
+      "email": "sereuspro94@gmail.com",
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1
+          },
+          "count": 2,
+          "subPrice": 6200
+        },
+        {
+          "item": {
+            "brand": "PATEK PHILIPPE GENEVE",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 7100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 3
+          },
+          "count": 1,
+          "subPrice": 7100
+        }
+      ],
+      "totalPrice": 13300,
+      "number": "123123",
+      "address": "123213",
+      "id": 2
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 3100
+        },
+        {
+          "item": {
+            "brand": "PATEK PHILIPPE GENEVE",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 2150,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 2,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 4,
+          "subPrice": 8600
+        }
+      ],
+      "totalPrice": 11700,
+      "email": "sereuspro94@gmail.com",
+      "number": "234234",
+      "address": "faereas",
+      "id": 3
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 3100
+        }
+      ],
+      "totalPrice": 3100,
+      "email": "sereuspro94@gmail.com",
+      "number": "123",
+      "address": "123123",
+      "id": 4
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 3100
+        },
+        {
+          "item": {
+            "brand": "PATEK PHILIPPE GENEVE",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 2150,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 2,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 2150
+        }
+      ],
+      "totalPrice": 5250,
+      "email": "sereuspro94@gmail.com",
+      "number": "123123",
+      "address": "asdsdasd",
+      "id": 5
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 3100
+        }
+      ],
+      "totalPrice": 3100,
+      "email": "sereuspro94@gmail.com",
+      "number": "234234",
+      "address": "loh",
+      "id": 6
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 3100
+        }
+      ],
+      "totalPrice": 3100,
+      "email": "sereuspro94@gmail.com",
+      "number": "132",
+      "address": "wasd",
+      "id": 7
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "ROLEX",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 3100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 1,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 3100
+        }
+      ],
+      "totalPrice": 3100,
+      "email": "sereuspro94@gmail.com",
+      "number": "132",
+      "address": "wasd",
+      "id": 8
+    },
+    {
+      "products": [],
+      "totalPrice": 0,
+      "email": "sereuspro94@gmail.com",
+      "number": "asds",
+      "address": "21312",
+      "id": 9
+    },
+    {
+      "products": [],
+      "totalPrice": 0,
+      "email": "sereuspro94@gmail.com",
+      "number": "sadasd",
+      "address": "213123",
+      "id": 10
+    },
+    {
+      "products": [],
+      "totalPrice": 0,
+      "email": "sereuspro94@gmail.com",
+      "number": "213123",
+      "address": "test",
+      "id": 11
+    },
+    {
+      "products": [
+        {
+          "item": {
+            "brand": "PATEK PHILIPPE GENEVE",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 7100,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 3,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 7,
+          "subPrice": 49700
+        },
+        {
+          "item": {
+            "brand": "ACCUTRON",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 10100,
+            "image1": "https://content.thewosgroup.com/productimage/17331767/17331767_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17331767/17331767_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17331767.mp4",
+            "id": 4,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 3,
+          "subPrice": 30300
+        },
+        {
+          "item": {
+            "brand": "PATEK PHILIPPE GENEVE",
+            "model": "Formula 1 41mm Quartz Bicolour Mens Watch WAZ1120.BB0879",
+            "description": "Offering unparalleled precision and truly special esthetics, the Formula 1 watch range is inspired by the brand’s long-lasting partnerships with motor racing teams and charismatic ambassadors. With its luxurious sports-lux feel and high performance features, this caliber TAG Heuer Formula 1 Men’s Watch will take you from the office to the sports field with effortless ease. Housed beneath a sapphire crystal lens for optimum protection, this visually striking timepiece boasts a midnight blue dial, a date display window at 3 o’clock, a gold bezel, a 41mm steel and gold plated case, as well as a gold and steel bracelet strap. This timepiece is also powered by Quartz Movement.",
+            "price": 2150,
+            "image1": "https://content.thewosgroup.com/productimage/17381091/17381091_1.jpg?impolicy=zoom",
+            "image2": "https://content.thewosgroup.com/productimage/17381091/17381091_2.jpg?impolicy=zoom",
+            "video": "https://content.thewosgroup.com/productvideo/17381091.mp4",
+            "id": 2,
+            "comments": [],
+            "likes": 0
+          },
+          "count": 1,
+          "subPrice": 2150
+        }
+      ],
+      "totalPrice": 82150,
+      "email": "sereuspro94@gmail.com",
+      "number": "323212",
+      "address": "32131",
+      "id": 12
+    }
+  ],
+  "products": [
+    {
+      "brand": "Apple",
+      "model": "MacBook Air",
+      "description": "С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной.",
+      "price": 10000,
+      "image1": "https://www.notebookcheck-ru.com/uploads/tx_nbc2/air13teaser.jpg",
+      "image2": "https://www.notebookcheck-ru.com/fileadmin/Notebooks/Apple/MacBook_Air_Late_2020_M1/mb_air_m1_4to3_teaser.jpg",
+      "video": "https://youtu.be/f-8cVqANmbI",
+      "likes": 0,
+      "coments": [],
+      "id": 1
+    },
+    {
+      "brand": "Asus",
+      "model": "VivoBook S17 Thin and Light Laptop",
+      "description": "VivoBook 17 – это компактный ноутбук с тонкорамочным дисплеем: относительная площадь экрана составляет целых 85%. В максимальной конфигурации устройство оснащается процессором Intel Core i7, дискретной видеокартой NVIDIA и двумя накопителями, что позволяет ему прекрасно справляться с любыми задачами. При открытой крышке дисплея шарнир ErgoLift приподнимает клавиатуру под комфортным для набора текста углом.",
+      "price": 70000,
+      "image1": "https://softech.kg/image/cache/22524a6ab1928905acfbb7195d839adc.jpg",
+      "image2": "<img src=\"https://softech.kg/image/cache/05d9244208dad221cd7e0aaba369e94f.jpg\" alt=\"Ноутбук ASUS VivoBook S17 Thin and Light Laptop 17.3&quot; AMD Ryzen 5-5500U/AMD Radeon Graphics (8+128GB SSD+1Tb HDD)\">",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 2
+    },
+    {
+      "brand": "Asus",
+      "model": "NB147A-RH",
+      "description": "Полная совместимость с широким спектром программного обеспечения и периферийных устройств. Ноутбук идеально подходит для студентов и школьников.",
+      "price": 25000,
+      "image1": "https://softech.kg/image/cache/d38abb65cddae07e7cf5b6c17bb646bc.jpg",
+      "image2": "https://softech.kg/image/cache/7f8527e3da6c70724928dbc96d3b2462.jpg\" ",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 3
+    },
+    {
+      "brand": "Apple",
+      "model": " MacBook Air 13\" 2020",
+      "description": "С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной.",
+      "price": 90000,
+      "image1": "https://softech.kg/image/cache/b4738c4b0a9b49c2bfc3d4a6b20330c1.jpg",
+      "image2": "https://softech.kg/image/cache/b4738c4b0a9b49c2bfc3d4a6b20330c1.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 4
+    },
+    {
+      "brand": "Lenovo",
+      "model": "IdeaPad 1",
+      "description": "Компактный размер и небольшой вес IdeaPad 1 позволят вам взять его с собой куда угодно. Положите его в дорожную сумку и отправляйтесь навстречу новым приключениям, не загромождая место крупными устройствами. Время автономной работы устройства составляет до 8 часов — этого вам хватит на весь день.",
+      "price": 26000,
+      "image1": "https://softech.kg/image/cache/b144d150268c183da2975ab29642bcbc.jpg",
+      "image2": "https://softech.kg/image/cache/8b7d96ccfcac2ac56d32684885056bb3.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 5
+    },
+    {
+      "brand": "Acer",
+      "model": "Swift 3",
+      "description": "Вес не проблема с этим тонким и легким ноутбуком. Благодаря корпусу из алюминия и магниево-алюминиевого сплава он весит всего около 1,19 кг, а толщина составляет всего 15,95 мм.",
+      "price": 62000,
+      "image1": "https://softech.kg/image/cache/de7fa4b9ead673169d9b185f41d47ae1.jpg",
+      "image2": "https://softech.kg/image/cache/c61f0d74a701631c49920993e1cb0b79.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 6
+    },
+    {
+      "brand": "Apple",
+      "model": "MacBook Pro 14\" 2021",
+      "description": "Супербыстрые чипы M1 Pro и M1 Max дают феноменальную производительность и обеспечивают удивительно долгое время работы без подзарядки. Прибавьте к этому потрясающий дисплей Liquid Retina XDR и ещё больше портов для профессиональной работы. Это тот самый ноутбук, который вы так ждали.",
+      "price": 200000,
+      "image1": "https://softech.kg/image/cache/8ec23d25cda1071ce63b9f4fa3f04b45.jpg",
+      "image2": "https://softech.kg/image/cache/b1bbcc2686a1c6cd7ecf85faef3b9bcb.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 7
+    },
+    {
+      "brand": "Apple",
+      "model": "MacBook Air 13.3\" 2019",
+      "description": "Любимый всеми Mac, в который можно легко влюбиться заново. Ещё более тонкий и лёгкий, новый MacBook Air оснащён дисплеем Retina с технологией True Tone, Touch ID, клавиатурой последнего поколения и трекпадом Force Touch. Представлен в трёх цветах — серебристом, золотом и «серый космос». Это самый экологичный Mac. Сохранив его культовый дизайн, мы использовали для корпуса только переработанный алюминий. И это невероятно удобный MacBook Air — он работает весь день без подзарядки и может справиться с любыми задачами.",
+      "price": 75000,
+      "image1": "https://softech.kg/image/cache/29a2298c2f6d2cc475c4b6a0db152760.jpg",
+      "image2": "https://softech.kg/image/cache/e19dff9a2c8323822017282816630f08.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 8
+    },
+    {
+      "brand": "Dell",
+      "model": "Inspiron 15 7590",
+      "description": "Быстрый - это преуменьшение: процессор Intel® Core ™ i5-9300H 9-го поколения обеспечивает невероятную скорость отклика и плавную многозадачность.",
+      "price": 50000,
+      "image1": "https://softech.kg/image/cache/72d0e2f823339bd4766f24cea4d2f2a5.jpg",
+      "image2": "https://softech.kg/image/cache/e04fdafa4410633a8b33607d5da7455d.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 9
+    },
+    {
+      "brand": "Dell",
+      "model": "Inspiron 14 3493",
+      "description": "Доступно с Windows 10 Home или Windows 10 Pro - получите лучшее сочетание из известных вам функций Windows и новых улучшений, которые вам понравятся.",
+      "price": 26000,
+      "image1": "https://softech.kg/image/cache/bbc5a3457f7aaadc5824b1b0820fd97c.jpg",
+      "image2": "https://softech.kg/image/cache/272362143559d7a45e6927dc9bc13b9a.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 10
+    },
+    {
+      "brand": "Dell",
+      "model": " Inspiron 15 3501",
+      "description": "Высокая емкость хранилища: Опциональные твердотельные накопители PCIe NVMe обладают повышенной скоростью отклика, работают тише и более стойки к ударам по сравнению с традиционными жесткими дисками. Кроме того, выбрав опциональную конфигурацию с двумя накопителями, вы получите преимущества и твердотельных накопителей в плане производительности, и жестких дисков с точки зрения емкости.  Удивительная мощь: Процессоры Intel® одиннадцатого поколения предоставляют широкий спектр мультимедийных возможностей для развлечений и хобби на протяжении всего дня. С ними вы можете читать, смотреть видео и фотографии, слушать музыку, вести потоковую передачу и учиться. Благодаря памяти DDR4 объемом до 16 Гбайт вы можете легко работать в многозадачном режиме и переключаться между открытыми приложениями.  Готовность к работе. Вы можете получить доступ к необходимым ресурсам с помощью одного нажатия кнопки или клика на тачпаде. Благодаря функции Modern Standby ваш ноутбук быстро выходит из спящего режима, чтобы вы могли вернуться к работе.",
+      "price": 50000,
+      "image1": "https://softech.kg/image/cache/c039a6898a4562733442b42b1fd30a8e.jpg",
+      "image2": "https://softech.kg/image/cache/df13a0d6f462938541508d27d799429e.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 11
+    },
+    {
+      "brand": "Dell",
+      "model": "Vostro 3400",
+      "description": "Красочный дисплей. Панель с разрешением HD обеспечивает более яркие и насыщенные цвета, повышая качество изображения, а узкая рамка с двух сторон расширяет обзор и позволяет меньше отвлекаться.  ExpressCharge. Аккумулятор заряжается от 0 до 80% всего за час, так что вы можете работать в дороге, не беспокоясь о доступе к розетке.  Dell Mobile Connect. Оцените простую и удобную беспроводную интеграцию ноутбука и смартфона под управлением Android или iOS. Технология Dell Mobile Connect обеспечивает доступ сразу к нескольким устройствам и приложениям.  Мощные процессоры. Процессоры Intel Core 11-го поколения помогут успешно решать ваши повседневные задачи.",
+      "price": 37000,
+      "image1": "https://softech.kg/image/cache/936e83ea3d1b11399753cb001bbc6769.jpg",
+      "image2": "https://softech.kg/image/cache/fc004f221837a8575379c81f24a91d5e.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 12
+    },
+    {
+      "brand": "Acer",
+      "model": "Acer Nitro 5",
+      "description": "Откройте для себя новый уровень гейминга благодаря мощным ноутбукам Nitro 5. Этот ноутбук идеально подходит для игр: цельный минималистичный дизайн, IPS-экран Full HD с высокой частотой обновления и впечатляющие функциональные возможности, которые улучшают геймплей.",
+      "price": 82000,
+      "image1": "https://softech.kg/image/cache/25e22cc3e458a4858f581c3ab959913e.jpg",
+      "image2": "https://softech.kg/image/cache/2907e0f266632fdf44dec362ae6b4df7.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 13
+    },
+    {
+      "brand": "Acer",
+      "model": "Swift 3",
+      "description": "Тонкий, легкий стильный ноутбук Swift 3 идеально подойдет для работы на ходу",
+      "price": 66000,
+      "image1": "https://softech.kg/image/cache/5353ba5f1ce9c42fe0abb1a15d428e55.jpg",
+      "image2": "https://softech.kg/image/cache/cc128901f60385b0a8644d13ee7ca211.jp",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 14
+    },
+    {
+      "brand": "Acer",
+      "model": "AN515-54-5812",
+      "description": "Откройте для себя новый уровень гейминга благодаря мощным ноутбукам Nitro 5. Этот ноутбук идеально подходит для игр: цельный минималистичный дизайн, IPS-экран Full HD с высокой частотой обновления и впечатляющие функциональные возможности, которые улучшают геймплей.",
+      "price": 70000,
+      "image1": "https://softech.kg/image/cache/25e22cc3e458a4858f581c3ab959913e.jpg",
+      "image2": "https://softech.kg/image/cache/2907e0f266632fdf44dec362ae6b4df7.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 15
+    },
+    {
+      "brand": "Acer",
+      "model": "Flex Touchscreen",
+      "description": "Благодаря до 8 часам автономной работы вы можете работать, играть и оставаться на связи весь день из любого места. Заканчивается сок? Технология Rapid Charge позволяет зарядить до 80% всего за час.",
+      "price": 60000,
+      "image1": "https://softech.kg/image/cache/48ff5f9707777599834000d1c852ae39.jpg",
+      "image2": "https://softech.kg/image/cache/d4e6631b2f0ae16bed56aa2e09c4397b.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 16
+    },
+    {
+      "brand": "Acer",
+      "model": "IdeaPad Gaming 3",
+      "description": "Наслаждайтесь качеством игр категории AAA в том виде, который соответствует замыслу их авторов, благодаря процессору AMD Ryzen™ серии 5000 H, видеокарте NVIDIA® GeForce® GTX, памяти DDR4 и опциональному твердотельному накопителю M.2 NVMe PCIe. Эти компоненты помогут запускать игры с неизменно высокими настройками и обеспечат возможность рассмотреть каждую деталь в игровой среде.",
+      "price": 73000,
+      "image1": "https://softech.kg/image/cache/9c3d8fed00502b75b0d17978dc5863a7.jpg",
+      "image2": "https://softech.kg/image/cache/e367189557a296f354f1d5c9af076d4d.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 17
+    },
+    {
+      "brand": "Asus",
+      "model": "TUF Dash F15",
+      "description": "Смелый дизайн и подлинная мобильность – ноутбук TUF Dash 15 представляет собой ультратонкую игровую платформу. В его изящном корпусе толщиной всего 19.9 мм скрываются мощные компоненты – это процессор Intel Core i7-11370H и видеокарта GeForce RTX 3050 Ti 4GB, готовые вывести безупречное изображение на 144-герцевый дисплей. Протестированная на соответствие военно-промышленному стандарту MIL-STD, данная модель отличается повышенной прочностью и надежностью, что, в сочетании с отличной автономностью (до 16.6 часа без подзарядки), делает ее прекрасным выбором в качестве портативной геймерской системы для ежедневного использовани",
+      "price": 100000,
+      "image1": "https://softech.kg/image/cache/9c21c3a152ff7252c68f382feb2511b8.jpg",
+      "image2": "https://softech.kg/image/cache/4c8b98cf84b3256479f760891107b321.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 18
+    },
+    {
+      "brand": "Asus",
+      "model": "TUF Gaming Laptop",
+      "description": "Неудержимая сила, безупречная надежность Asus TUF Gaming FX505 изменит ваш взгляд на игровые ноутбуки. Обладая дисплеем NanoEdge уровня IPS с частотой обновления и оснащенным новейшим процессором Intel Core 9-го поколения и графикой NVIDIA GeForce GTX 1650, TUF Gaming FX505 отличной игровой платформой по разумной цене!. Он также протестирован и сертифицирован по военным стандартам MIL-STD-810G, поэтому вам гарантирована прочность и долговечность, которые не имеют себе равных.",
+      "price": 70000,
+      "image1": "https://softech.kg/image/cache/d41ebc7a9ce37e5a02642e4bf88754f5.jpg",
+      "image2": "https://softech.kg/image/cache/ac3702051db5273dea279d43fbe88dca.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 20
+    },
+    {
+      "brand": "Asus",
+      "model": " D509D",
+      "description": "Сила настоящей классики Рекордно компактный универсальный 15-дюймовый ноутбук ASUS D509D – это универсальный ноутбук начального уровня, объединяющий в себе стильный дизайн и современные технологии. Он предлагает пользователю всю мощь процессора AMD Ryzen™ в сочетании видеокартой Radeon Vega Graphics. Ноутбук оснащен матовым тонкорамочным дисплеем NanoEdge с широкими (178°) углами обзора, а для хранения файлов он может комплектоваться двумя накопителями: высокоскоростным твердотельным (емкостью до 512 ГБ) с интерфейсом PCIe® и традиционным жестким диском (до 1 ТБ).",
+      "price": 40000,
+      "image1": "https://softech.kg/image/cache/60f8ebc8c3e772c5425c1b5925f7fa23.jpg",
+      "image2": "https://softech.kg/image/cache/eb7bbbe4d7b32deb419304f91ebd00e2.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 21
+    },
+    {
+      "brand": "Lenovo",
+      "model": "IdeaPad Gaming 3",
+      "description": "Время перейти на новый уровень Наслаждайтесь качеством игр категории AAA в том виде, который соответствует замыслу их авторов, благодаря процессору AMD Ryzen™ серии 5000 H, видеокарте NVIDIA® GeForce® GTX, памяти DDR4 и опциональному твердотельному накопителю M.2 NVMe PCIe. Эти компоненты помогут запускать игры с неизменно высокими настройками и обеспечат возможность рассмотреть каждую деталь в игровой среде.",
+      "price": 74000,
+      "image1": "https://softech.kg/image/cache/9c3d8fed00502b75b0d17978dc5863a7.jpg",
+      "image2": "https://softech.kg/image/cache/e367189557a296f354f1d5c9af076d4d.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 22
+    },
+    {
+      "brand": "Lenovo",
+      "model": "Flex 5",
+      "description": "Воплотите свои идеи в жизнь Когда приходит вдохновение, воспользуйтесь производительным и легким ноутбуком-трансформером Lenovo IdeaPad Flex 5. Он может работать без подзарядки в течение всего дня, а также поддерживает разные режимы использования (ноутбук, планшет и др.).",
+      "price": 63000,
+      "image1": "https://softech.kg/image/cache/4971604d6059132e0c3824d33fa691a9.jpg",
+      "image2": "https://softech.kg/image/cache/0e578d515e8a15b29ae0851c696bc017.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 23
+    },
+    {
+      "brand": "Lenovo",
+      "model": "Flex Touchscreen",
+      "description": "Время добиваться большего Благодаря до 8 часам автономной работы вы можете работать, играть и оставаться на связи весь день из любого места. Заканчивается сок? Технология Rapid Charge позволяет зарядить до 80% всего за час.",
+      "price": 58000,
+      "image1": "https://softech.kg/image/cache/48ff5f9707777599834000d1c852ae39.jpg",
+      "image2": "https://softech.kg/image/cache/d4e6631b2f0ae16bed56aa2e09c4397b.jpg",
+      "video": "not video",
+      "likes": 0,
+      "coments": [],
+      "id": 24
+    }
+  ],
+  "comments": [
+    {
+      "comment": "dasdas",
+      "productId": 20,
+      "id": 1
+    },
+    {
+      "comment": "dsadsadas",
+      "productId": 2,
+      "email": "sereuspro94@gmail.com",
+      "id": 2
+    },
+    {
+      "comment": "sdads",
+      "productId": 2,
+      "email": "sereuspro94@gmail.com",
+      "id": 3
+    },
+    {
+      "comment": "dsadsa",
+      "productId": 2,
+      "email": "sereuspro94@gmail.com",
+      "id": 5
+    },
+    {
+      "comment": "dsadsadfgfsdgdfgfdsgfdsgdf",
+      "productId": 2,
+      "email": "sereuspro94@gmail.com",
+      "id": 6
+    },
+    {
+      "comment": "dsadasfasfasdsadsads",
+      "productId": 1,
+      "email": "sereuspro94@gmail.com",
+      "id": 7
+    }
+  ],
+  "brands": [
+    {
+      "brand": "Apple",
+      "logo": "https://www.freepnglogos.com/uploads/apple-logo-png/apple-logo-png-dallas-shootings-don-add-are-speech-zones-used-4.png",
+      "id": 1
+    },
+    {
+      "brand": "Asus",
+      "logo": "https://smartphonepliablefrance.com/wp-content/uploads/2020/11/asus-rog-3.jpg",
+      "id": 2
+    },
+    {
+      "brand": "Lenovo",
+      "logo": "https://softech.kg/image/cache/87090f0ecf40adea28e51cf2b00a8c5f.png",
+      "id": 3
+    },
+    {
+      "brand": "Acer",
+      "logo": "https://softech.kg/image/cache/6e9b663f65ae8edb6726fe18226b74d2.png",
+      "id": 4
+    },
+    {
+      "brand": "Dell",
+      "logo": "https://softech.kg/image/cache/ba5c08edea4bd1855bb0610b67590231.png",
+      "id": 5
+    }
+  ]
+}

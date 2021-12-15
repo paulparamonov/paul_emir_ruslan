@@ -1,0 +1,11 @@
+.comments-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.comments-form button {
+    margin-top:10px;
+    
+}
