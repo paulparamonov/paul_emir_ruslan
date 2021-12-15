@@ -1,9 +1,11 @@
 import React from "react";
 import { BrowserRouter } from "react-router-dom";
 
+
 import AuthContextProvider from "./contexts/authContext";
 import ProductsContextProvider from "./contexts/productsContext";
 import BrandsContextProvider from "./contexts/brandsContext";
+import CommentContextProvider from "./contexts/commentContext";
 import CartContextProvider from "./contexts/cartContext";
 import FavoritesContextProvider from "./contexts/FavoritesContext";
 
@@ -21,6 +23,7 @@ const App = () => {
       <CartContextProvider>
       <FavoritesContextProvider>
         <BrandsContextProvider>
+        <CommentContextProvider>
           <ProductsContextProvider>
             <BrowserRouter>
               <Header />
@@ -28,6 +31,7 @@ const App = () => {
               <Footer />
             </BrowserRouter>
           </ProductsContextProvider>
+          </CommentContextProvider>
         </BrandsContextProvider>
       </FavoritesContextProvider>
       </CartContextProvider>

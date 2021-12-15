@@ -1,6 +1,8 @@
 import React from "react";
 import { useAuth } from "../../contexts/authContext";
+import {Form , Input , Checkbox , Button } from "antd"
 import "./Login.css";
+import "antd/dist/antd.css";
 
 const Login = () => {
   const {
@@ -19,65 +21,86 @@ const Login = () => {
     <>
       <section className="login">
         <div className="login-container">
-          <label className="auth-label">Email</label>
-          <input
-            className="auth-input"
-            type="text"
-            autoFocus
-            required
-            value={email}
+        <Form
+      name="basic"
+      labelCol={{
+        span: 8,
+      }}
+      wrapperCol={{
+        span: 16,
+      }}
+      initialValues={{
+        remember: true,
+      }}
+      
+      autoComplete="off"
+    >
+      <Form.Item
+        label="Username"
+        name="username"
+        rules={[
+          {
+            required: true,
+            message: 'Please input your username!',
+          },
+        ]}
+      >
+        <Input
+        value={email}
             onChange={(e) => {
               setEmail(e.target.value);
             }}
-          />
-          <p className="error-msg">{emailError}</p>
+         />
+         <p className="error-msg">{emailError}</p>
+      </Form.Item>
 
-          <label className="auth-label">Password</label>
-          <input
-            className="auth-input"
-            type="password"
-            autoFocus
-            required
-            value={password}
+      <Form.Item
+        label="Password"
+        name="password"
+        rules={[
+          {
+            required: true,
+            message: 'Please input your password!',
+          },
+        ]}
+      >
+        <Input.Password 
+        value={password}
             onChange={(e) => {
               setPassword(e.target.value);
             }}
-          />
-          <p className="error-msg">{passwordError}</p>
+        />
+      </Form.Item>
+      <p className="error-msg">{passwordError}</p>
+      <Form.Item
+        name="remember"
+        valuePropName="checked"
+        wrapperCol={{
+          offset: 8,
+          span: 16,
+        }}
+      >
+        <Checkbox>Remember me</Checkbox>
+      </Form.Item>
+      
 
-          <div className="btn-container">
-            {hasAccount ? (
-              <>
-                <button className="auth-btn" onClick={handleLogin}>
-                  Sign in
-                </button>
-                <p className="auth-text">
-                  Don't have an account?
-                  <span
-                    className="auth-span"
-                    onClick={() => setHasAccount(!hasAccount)}
-                  >
-                    Sign up
-                  </span>
-                </p>
-              </>
-            ) : (
-              <>
-                <button className="auth-btn" onClick={handleSignUp}>
-                  Sign up
-                </button>
-                <p className="auth-text">
-                  Have an account?
-                  <span
-                    className="auth-span"
-                    onClick={() => setHasAccount(!hasAccount)}
-                  >
-                    Sign in
-                  </span>
-                </p>
-              </>
-            )}
-          </div>
+      <Form.Item
+        wrapperCol={{
+          offset: 8,
+          span: 16,
+        }}
+      >
+        <Button type="primary" onClick={handleLogin}
+        style={{ marginRight: 8 }}
+        >
+          Sign in
+        </Button>
+        <Button type="primary" onClick={handleSignUp}>
+          Sign up
+        </Button>
+      </Form.Item>
+    </Form>
+          
         </div>
       </section>
     </>

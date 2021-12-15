@@ -2,7 +2,7 @@ import React, { useContext, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
 import { Badge } from "antd";
-import { ShoppingCartOutlined , UserOutlined , StarOutlined,MenuOutlined ,ArrowLeftOutlined  } from "@ant-design/icons";
+import { ShoppingCartOutlined , UserOutlined , StarOutlined,MenuOutlined  } from "@ant-design/icons";
 import  Menu  from "./Menu";
 
 import { useAuth } from "../../contexts/authContext";
