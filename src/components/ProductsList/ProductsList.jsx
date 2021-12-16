@@ -51,10 +51,10 @@ const ProductsList = () => {
   }, [search, page, limit, brand, price]);
   console.log(products);
   return (
-    <div className="container" style={{ marginTop: "20px" }}>
+    <div className="container" style={{ marginTop: "60px" }}>
       <div className="products-search">
         <div
-          style={{ cursor: "pointer" }}
+          style={{ cursor: "pointer" ,color:"whitesmoke" ,padding:"0 7px" , borderRadius:"9%", background:"#6B4F4F"}}
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
@@ -62,7 +62,7 @@ const ProductsList = () => {
         <Input.Search
           value={search}
           onChange={(e) => setSearch(e.target.value)}
-          style={{ width: "25vw" }}
+          style={{ width: "70vw" }}
           placeholder="Search..."
         />
       </div>

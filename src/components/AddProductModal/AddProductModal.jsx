@@ -27,7 +27,7 @@ const AddProductModal = () => {
   };
   return (
     <>
-      <Button type="primary" onClick={showModal}>
+      <Button type="danger" onClick={showModal}>
         Add product
       </Button>
       <Modal
@@ -145,7 +145,7 @@ const AddProductModal = () => {
               span: 16,
             }}
           >
-            <Button type="primary" htmlType="submit">
+            <Button type="danger" htmlType="submit">
               Add product
             </Button>
           </Form.Item>

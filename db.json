@@ -336,6 +336,67 @@
       "number": "323212",
       "address": "32131",
       "id": 12
+    },
+    {
+      "email": "sereuspro94@gmail.com",
+      "products": [
+        {
+          "item": {
+            "brand": "Asus",
+            "model": "NB147A-RH",
+            "description": "Полная совместимость с широким спектром программного обеспечения и периферийных устройств. Ноутбук идеально подходит для студентов и школьников.",
+            "price": 25000,
+            "image1": "https://softech.kg/image/cache/d38abb65cddae07e7cf5b6c17bb646bc.jpg",
+            "image2": "https://softech.kg/image/cache/7f8527e3da6c70724928dbc96d3b2462.jpg\" ",
+            "video": "not video",
+            "likes": 0,
+            "coments": [],
+            "id": 3
+          },
+          "count": 1,
+          "subPrice": 25000
+        },
+        {
+          "item": {
+            "brand": "Apple",
+            "model": "MacBook Air",
+            "description": "С появлением чипа Apple M1 наш самый тонкий и лёгкий ноутбук полностью преобразился. Центральный процессор теперь работает до 3,5 раза быстрее. Графический — до 5 раз. А благодаря нашей передовой системе Neural Engine скорость машинного обучения возросла до 9 раз. Новый MacBook Air работает без подзарядки дольше, чем предыдущие модели. И совсем не шумит, потому что у него нет вентилятора. Мощность ещё никогда не была такой компактной.",
+            "price": 10000,
+            "image1": "https://www.notebookcheck-ru.com/uploads/tx_nbc2/air13teaser.jpg",
+            "image2": "https://www.notebookcheck-ru.com/fileadmin/Notebooks/Apple/MacBook_Air_Late_2020_M1/mb_air_m1_4to3_teaser.jpg",
+            "video": "https://youtu.be/f-8cVqANmbI",
+            "likes": 0,
+            "coments": [],
+            "id": 1
+          },
+          "count": 1,
+          "subPrice": 10000
+        },
+        {
+          "item": {
+            "brand": "Asus",
+            "model": "VivoBook S17 Thin and Light Laptop",
+            "description": "VivoBook 17 – это компактный ноутбук с тонкорамочным дисплеем: относительная площадь экрана составляет целых 85%. В максимальной конфигурации устройство оснащается процессором Intel Core i7, дискретной видеокартой NVIDIA и двумя накопителями, что позволяет ему прекрасно справляться с любыми задачами. При открытой крышке дисплея шарнир ErgoLift приподнимает клавиатуру под комфортным для набора текста углом.",
+            "price": 70000,
+            "image1": "https://softech.kg/image/cache/22524a6ab1928905acfbb7195d839adc.jpg",
+            "image2": "<img src=\"https://softech.kg/image/cache/05d9244208dad221cd7e0aaba369e94f.jpg\" alt=\"Ноутбук ASUS VivoBook S17 Thin and Light Laptop 17.3&quot; AMD Ryzen 5-5500U/AMD Radeon Graphics (8+128GB SSD+1Tb HDD)\">",
+            "video": "not video",
+            "likes": 0,
+            "coments": [],
+            "id": 2
+          },
+          "count": 1,
+          "subPrice": 70000
+        }
+      ],
+      "totalPrice": 105000,
+      "name": "Ivan Ivanov ",
+      "cardNumber": "1234156495132",
+      "cardDate": "09/22",
+      "cardCVC": "321",
+      "number": "+996703219464",
+      "address": "Bishkek",
+      "id": 13
     }
   ],
   "products": [
@@ -547,7 +608,7 @@
       "brand": "Asus",
       "model": "TUF Dash F15",
       "description": "Смелый дизайн и подлинная мобильность – ноутбук TUF Dash 15 представляет собой ультратонкую игровую платформу. В его изящном корпусе толщиной всего 19.9 мм скрываются мощные компоненты – это процессор Intel Core i7-11370H и видеокарта GeForce RTX 3050 Ti 4GB, готовые вывести безупречное изображение на 144-герцевый дисплей. Протестированная на соответствие военно-промышленному стандарту MIL-STD, данная модель отличается повышенной прочностью и надежностью, что, в сочетании с отличной автономностью (до 16.6 часа без подзарядки), делает ее прекрасным выбором в качестве портативной геймерской системы для ежедневного использовани",
-      "price": 100000,
+      "price": 10000,
       "image1": "https://softech.kg/image/cache/9c21c3a152ff7252c68f382feb2511b8.jpg",
       "image2": "https://softech.kg/image/cache/4c8b98cf84b3256479f760891107b321.jpg",
       "video": "not video",
@@ -618,39 +679,34 @@
   ],
   "comments": [
     {
-      "comment": "dasdas",
-      "productId": 20,
+      "comment": "dasdsa",
+      "productId": 3,
+      "email": "sereuspro94@gmail.com",
       "id": 1
     },
     {
-      "comment": "dsadsadas",
+      "comment": "выфвыф",
       "productId": 2,
       "email": "sereuspro94@gmail.com",
       "id": 2
     },
     {
-      "comment": "sdads",
-      "productId": 2,
+      "comment": "вафаыфафы",
+      "productId": 4,
       "email": "sereuspro94@gmail.com",
       "id": 3
     },
     {
-      "comment": "dsadsa",
+      "comment": "нуууд\n",
+      "productId": 4,
+      "email": "sereuspro94@gmail.com",
+      "id": 4
+    },
+    {
+      "comment": "dasda",
       "productId": 2,
       "email": "sereuspro94@gmail.com",
       "id": 5
-    },
-    {
-      "comment": "dsadsadfgfsdgdfgfdsgfdsgdf",
-      "productId": 2,
-      "email": "sereuspro94@gmail.com",
-      "id": 6
-    },
-    {
-      "comment": "dsadasfasfasdsadsads",
-      "productId": 1,
-      "email": "sereuspro94@gmail.com",
-      "id": 7
     }
   ],
   "brands": [
@@ -666,17 +722,17 @@
     },
     {
       "brand": "Lenovo",
-      "logo": "https://softech.kg/image/cache/87090f0ecf40adea28e51cf2b00a8c5f.png",
+      "logo": "https://lh3.googleusercontent.com/proxy/TxIiSLh9MQ_G-hX4_ycBwGX_karRabZWRf3InhKGCAF9qgDDZ1IcVReMRaois2aceWWNSvQMO72bCBJaZmeYa9FRusJD8ZzCDmOhDKUD5XhR5oI3T7utw-n7eQA-Wob5",
       "id": 3
     },
     {
       "brand": "Acer",
-      "logo": "https://softech.kg/image/cache/6e9b663f65ae8edb6726fe18226b74d2.png",
+      "logo": "https://besthqwallpapers.com/Uploads/2-4-2021/160618/thumb2-acer-logo-orange-background-acer-3d-logo-3d-art-acer.jpg",
       "id": 4
     },
     {
       "brand": "Dell",
-      "logo": "https://softech.kg/image/cache/ba5c08edea4bd1855bb0610b67590231.png",
+      "logo": "https://i.pinimg.com/originals/d5/09/9f/d5099fbca1f14ba14c1891af52837730.png",
       "id": 5
     }
   ]

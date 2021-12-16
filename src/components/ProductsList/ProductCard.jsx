@@ -31,7 +31,7 @@ const ProductCard = ({ item }) => {
       hoverable
       key={item.id}
       style={{ width: "280px", margin: "10px" }}
-      cover={<Link to={`/products/${item.id}`}><img alt="example" src={item.image1} /></Link>}
+      cover={<Link to={`/products/${item.id}`}><img  alt="example" src={item.image1} onClick/></Link>}
       actions={[
         <StarOutlined style={{ color: checkInFavorites ? "red" : "black", fontSize: "25px" }}
         onClick={() => {

@@ -10,7 +10,7 @@ const Favorites = () => {
   }, []);
   console.log(Favorites);
   return (
-    <div className="container">
+    <div className="container" style={{marginTop:"35px"}}>
       <List
         itemLayout="vertical"
         size="large"

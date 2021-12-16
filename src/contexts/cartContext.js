@@ -105,7 +105,16 @@ const CartContextProvider = ({ children }) => {
     });
   }
 
+
+function clearCart(){
+  localStorage.removeItem('cart')
+    dispatch({
+      type: REMOVE_CART,
+    });
+}
+
 /*
+
 
 */
   

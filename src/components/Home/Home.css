@@ -1,31 +1,6 @@
-/* .carusel
-{ 
- height: 160px; 
- color: antiquewhite;
-  lineHeight: 160px;
-  text-align: center;
-  background: #364d79;
-} */
-
-/* .carusell{
-    https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/macbook-pro-13-og-202011?wid=600&hei=315&fmt=jpeg&qlt=95&.v=1604347427000
-    
-    https://funduk.ua/upload/product/19692/h_630_w_730/top-10-igrovykh-noutbukov.jpg
-    
-    
-    
-    
-    text-align: center;
-    display: flex;
-    justify-content:flex-end ;
-} */
-
-/* .text_carusel {
-  display: flex;
-  align-items: center;
-    justify-content: flex-end;
-    text-align: center;
-} */
+#root {
+  background-color: #F7F7F7;
+}
 .recom_img{
     height: 200px;
 }
@@ -34,10 +9,10 @@ a{
     text-decoration: none;
 }
 
-.carusel {
+/* .carusel {
   border-radius: 22px;
   height: 700px;
-}
+} */
 .img {
   display: flex;
   flex-wrap: wrap;
@@ -63,6 +38,7 @@ img {
   justify-content: space-around;
 }
 
+
 @media screen and (max-width: 1000px) {
   .cards {
     justify-content: center;
@@ -70,7 +46,8 @@ img {
 }
 
 @media screen and (max-width: 900px) {
-  .main-img {
-    margin-top: 55px;
+  
+  .home-body {
+    margin-top: 45px;
   }
 }

@@ -36,7 +36,7 @@ const Payment = () => {
     } 
 
     return (
-        <div className='cart-payment-form'>
+        <div className='cart-payment-form' style={{marginTop:"25px"}}>
             <form onSubmit={sendForm}>
                 <ul>
                     {cart.products?.map(value => <li>
@@ -63,51 +63,72 @@ const Payment = () => {
                 <div>
                 <span style={{textAlign: 'right'}}>
                 {<h2>Total: {cart?.totalPrice}$</h2>}
+                <img
+        src="https://www.watchesofswitzerland.com/medias/usa-payment-options-group-1121.png?context=bWFzdGVyfHJvb3R8NTA1M3xpbWFnZS9wbmd8aDIwL2hkNS85MTIyMTcxMTI1NzkwLnBuZ3wzZDQ5ZGZhMjc2NjM4MzBlZjZhMjk1NzcyOWEyOGUwYzVjNGZiNzAzZGZmYjQ5Y2U5M2E1MTUxYzU5ZWRmMjVj"
+        alt=""
+      />
                             </span>
+                            <br/>
+                            <label>Name Surname</label>
+                            <br/>
                     <input 
                         placeholder="IVAN IVANOV"
                         type='text'
-                        onChange={inputHandler('number')}
-                        required
+                        onChange={inputHandler('name')}
+                        maxLength="20"
+                        required="required" 
                      />
+                    <br/>
+                    <label>Card num</label>
                     <br/>
                     <input 
                         placeholder="2345 1234 1234 1234"
                         type='number'
-                        onChange={inputHandler('number')}
-                        required
+                        onChange={inputHandler('cardNumber')}
+                        required="required" 
                      />
+                    <br/>
+                    <label>Card date</label>
                     <br/>
                     <input 
                         placeholder="09/22"
                         type='text'
-                        onChange={inputHandler('number')}
-                        required
+                        onChange={inputHandler('cardDate')}
+                        required="required" 
+                        maxLength="5"
                      />
-                    <br/>  
-                    <input 
-                        placeholder="CVC"
-                        type='number'
-                        onChange={inputHandler('number')}
-                        required
-                     />
-                    <br/>      
-                    <input 
-                        placeholder="tel number"
-                        type='tel'
-                        onChange={inputHandler('number')}
-                        required
-                     />
+                    <br/> 
+                    <label>CVC</label> 
                     <br/>
                     <input 
-                        placeholder="address" 
+                        placeholder="555"
+                        type='number'
+                        onChange={inputHandler('cardCVC')}
+                        required="required" 
+                        maxLength="3"
+                     />
+                    <br/>  
+                    <label>Phone number</label>  
+                    <br/>  
+                    <input 
+                        placeholder="+996703219464"
+                        type='tel'
+                        onChange={inputHandler('number')}
+                        required="required" 
+                        maxLength="14"
+                     />
+                    <br/>
+                    <label>Adress</label>
+                    <br/>
+                    <input 
+                        placeholder="Bishkek.Manasa.26" 
                         type='text'
                         onChange={inputHandler('address')}
-                        required
+                        required="required" 
                         />
                 </div>
                 
-                <button  type="submit">Оплатить</button>
+                <button  type="submit" style={{marginTop:"10px"}}>Оплатить</button>
             </form>
         </div>
     );

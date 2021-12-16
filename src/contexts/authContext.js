@@ -1,14 +1,34 @@
-import { createContext, useState, useContext, useEffect } from "react";
+import { createContext, useState, useContext, useEffect, useReducer } from "react";
+import {  clearCart } from "./cartContext";
+import fire from "../fire"
+import {GoogleAuthProvider ,signInWithPopup} from "firebase/auth"
+import {aut} from "../fire"
 
-import fire from "../fire";
+
+
 
 export const authContext = createContext();
 
+// const {cart, clearCart} = useContext(cartContext);
 export const useAuth = () => {
   return useContext(authContext);
 };
 
+const INIT_STATE = {
+  googleUser:null,
+}
+
+const reducer =(state = INIT_STATE , action)=>{
+  switch(action.type){
+    case "SET_USER":
+      return{...state,googleUser:action.payload};
+      default:
+        return state;
+  }
+}
+
 const AuthContextProvider = ({ children }) => {
+  const [state,dispath]=useReducer(reducer,INIT_STATE)
   const [user, setUser] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -26,6 +46,15 @@ const AuthContextProvider = ({ children }) => {
     setEmailError("");
     setPasswordError("");
   };
+
+  const googleProvider = new GoogleAuthProvider();
+  const authWithGoogle = async()=>{
+    try {
+      await signInWithPopup(aut ,googleProvider);
+    }catch(e){
+      console.log(e);
+    }
+  }
 
   const handleSignUp = () => {
     clearErrors();
@@ -66,6 +95,7 @@ const AuthContextProvider = ({ children }) => {
 
   const handleLogout = (e) => {
     // e.preventDefault();
+
     fire.auth().signOut()
   
   };
@@ -98,6 +128,8 @@ const AuthContextProvider = ({ children }) => {
     setHasAccount,
     emailError,
     passwordError,
+    authWithGoogle,
+    googleUser:state.googleUser
   };
 
   return <authContext.Provider value={values}>{children}</authContext.Provider>;

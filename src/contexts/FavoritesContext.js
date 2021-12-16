@@ -82,6 +82,13 @@ const FavoritesContextProvider = ({ children }) => {
     getFavorites();
   }
 
+  function clearFavorites(){
+    localStorage.removeItem('favorites')
+      dispatch({
+        type: REMOVE_FAVORITES,
+      });
+  }
+
   function checkItemInFavorites(id) {
     let favorites = JSON.parse(localStorage.getItem("favorites"));
     if (!favorites) {
