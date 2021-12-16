@@ -18,6 +18,10 @@ nav {
   z-index: 1000;
   top: 0;
   border-bottom: 1px solid #383737;
+<<<<<<< HEAD
+=======
+  height: 45px;
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
     
 }
 .auth-icon {
@@ -69,7 +73,11 @@ nav {
 }
 
 .header-logo {
+<<<<<<< HEAD
 
+=======
+color: whitesmoke;
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 }
 
 .cart , .favorites{
@@ -94,6 +102,13 @@ nav {
   color: black;
 }
 
+<<<<<<< HEAD
+=======
+.ns {
+  display: none;
+}
+
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 
 
 @media screen and (max-width: 900px){
@@ -105,4 +120,23 @@ nav {
     display: block;
     margin-right: 30px;
   }
+<<<<<<< HEAD
+=======
+}
+
+@media screen and (max-width: 675px){
+  .greetings {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 675px){
+  .header-logo {
+    display: none;
+  }
+  .ns{
+    display: block;
+    color: whitesmoke;
+  }
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 }

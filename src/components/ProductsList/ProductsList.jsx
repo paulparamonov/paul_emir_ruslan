@@ -51,10 +51,17 @@ const ProductsList = () => {
   }, [search, page, limit, brand, price]);
   console.log(products);
   return (
+<<<<<<< HEAD
     <div className="container" style={{ marginTop: "20px" }}>
       <div className="products-search">
         <div
           style={{ cursor: "pointer" }}
+=======
+    <div className="container" style={{ marginTop: "60px" }}>
+      <div className="products-search">
+        <div
+          style={{ cursor: "pointer" ,color:"whitesmoke" ,padding:"0 7px" , borderRadius:"9%", background:"#6B4F4F"}}
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
           onClick={() => setShowFilters(!showFilters)}
         >
           {showFilters ? "HIDE FILTERS" : "SHOW FILTERS"}
@@ -62,7 +69,11 @@ const ProductsList = () => {
         <Input.Search
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+<<<<<<< HEAD
           style={{ width: "25vw" }}
+=======
+          style={{ width: "70vw" }}
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
           placeholder="Search..."
         />
       </div>

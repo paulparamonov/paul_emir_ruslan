@@ -10,7 +10,11 @@ const Favorites = () => {
   }, []);
   console.log(Favorites);
   return (
+<<<<<<< HEAD
     <div className="container">
+=======
+    <div className="container" style={{marginTop:"35px"}}>
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       <List
         itemLayout="vertical"
         size="large"

@@ -8,7 +8,11 @@ import AdminProductsList from "../components/AdminProductsList/AdminProductsList
 
 const AdminPage = () => {
   return (
+<<<<<<< HEAD
     <div className="container" style={{ marginTop: "15px" }}>
+=======
+    <div className="container" style={{ marginTop: "55px" }}>
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       <Row>
         <Col span={12}>
           <Col span={22}>

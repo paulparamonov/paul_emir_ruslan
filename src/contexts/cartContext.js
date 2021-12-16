@@ -105,8 +105,22 @@ const CartContextProvider = ({ children }) => {
     });
   }
 
+<<<<<<< HEAD
 /*
 
+=======
+
+function clearCart(){
+  localStorage.removeItem('cart')
+    dispatch({
+      type: REMOVE_CART,
+    });
+}
+
+/*
+
+
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 */
   
   

@@ -70,6 +70,7 @@ const Header = () => {
         />
         <Link to="/">
           <h1 className="header-logo">Notebook Store</h1>
+          <h1 className="ns">NS</h1>
         </Link>
       </div>
 

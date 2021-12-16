@@ -1,12 +1,18 @@
 import React from "react";
 import "./Home.css";
+<<<<<<< HEAD
 import { Card } from "antd";
 import { Carousel } from "react-bootstrap";
+=======
+import { Card , Carousel } from "antd";
+// import { Carousel } from "react-bootstrap";
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const { Meta } = Card;
 const Home = () => {
+<<<<<<< HEAD
   return (
     <div className="container">
       <Carousel fade >
@@ -96,6 +102,41 @@ const Home = () => {
           </Carousel.Caption>
         </Carousel.Item>
       </Carousel>
+=======
+  const contentStyle = {
+    height: 'auto',
+    
+    lineHeight: '160px',
+    textAlign: 'center',
+    
+  };
+  return (
+    <div className="home-body">
+    <div className="container">
+    <Carousel autoplay>
+    <div>
+      <h3 style={contentStyle}><img
+      src="https://9to5mac.com/wp-content/uploads/sites/6/2020/05/2020-13-inch-MacBook-Pro.png    "
+       /></h3>
+    </div>
+    <div>
+      <h3 style={contentStyle}>
+      <img
+      src="https://ru.gecid.com/data/nouts/202008170800-60878/img/01_acer_aspire_7_a715-41g.jpg"
+       />
+      </h3>
+    </div>
+    <div>
+      <h3 style={contentStyle}>
+      <img
+      src="https://images.firstpost.com/wp-content/uploads/2021/05/Asus-S17.jpg"
+       />
+      </h3>
+    </div>
+    
+  </Carousel>,
+      
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 
       <div className="img">
         <a>
@@ -207,6 +248,10 @@ const Home = () => {
         </Card>
       </div>
     </div>
+<<<<<<< HEAD
+=======
+    </div>
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   );
 };
 

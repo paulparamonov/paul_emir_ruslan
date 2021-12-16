@@ -6,6 +6,7 @@
     left: 0;
     transform: translateX(-100%);
     transition: all 0.2s;
+    z-index: 99999;
     
 }
 .menu.active {
@@ -13,7 +14,8 @@
 }
 
 .menu-content {
-    width: 10%;
+    
+    width: 20%;
     height: 100%;
     background-color: #4a4a4a;
     opacity: 0.8;
@@ -21,6 +23,7 @@
     flex-direction: column;
     align-items: center;
     transition: all 0.5s;
+    
 }
 
 .navbar-burger {

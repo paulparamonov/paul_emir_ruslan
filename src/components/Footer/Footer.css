@@ -65,4 +65,22 @@ img {
     font-size: 15px; 
     width: 100%; 
     font-weight: bold;
+<<<<<<< HEAD
 }
+=======
+}
+.DropFooter{
+    display: none;
+}
+
+@media screen and (max-width: 770px){
+   .footer {
+       
+       display: none;
+   }
+   .DropFooter{
+    display: block;
+}
+    
+  }
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a

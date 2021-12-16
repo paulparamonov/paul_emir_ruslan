@@ -11,12 +11,20 @@
     align-items: center;
     border: 1px solid #4a4a4a;
     border-radius: 10px;
+<<<<<<< HEAD
+=======
+    margin: 0 0 10px 0;
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   }
   
   .product-card-table span {
     width: 100%;
     display: block;
+<<<<<<< HEAD
     padding: 15px;
+=======
+    padding: 5px;
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   }
   
   .product-card-table img {
@@ -29,7 +37,13 @@
   }
   
   .cart-payment-form {
+<<<<<<< HEAD
     padding: 30px 15px;
     width: 640px;
+=======
+    
+    padding: 30px 15px;
+    max-width: 640px;
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
     margin: 0 auto;
   }

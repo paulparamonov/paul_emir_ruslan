@@ -8,4 +8,21 @@
 .comments-form button {
     margin-top:10px;
     
+<<<<<<< HEAD
 }
+=======
+}
+
+.item-imag{
+    display: none;
+}
+@media screen and (max-width: 770px){
+.item-image{
+    display: none;
+}
+.item-imag{
+    display: block;
+}
+     
+   }
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
