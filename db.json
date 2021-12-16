@@ -336,8 +336,6 @@
       "number": "323212",
       "address": "32131",
       "id": 12
-<<<<<<< HEAD
-=======
     },
     {
       "email": "sereuspro94@gmail.com",
@@ -399,7 +397,6 @@
       "number": "+996703219464",
       "address": "Bishkek",
       "id": 13
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
     }
   ],
   "products": [
@@ -611,11 +608,7 @@
       "brand": "Asus",
       "model": "TUF Dash F15",
       "description": "Смелый дизайн и подлинная мобильность – ноутбук TUF Dash 15 представляет собой ультратонкую игровую платформу. В его изящном корпусе толщиной всего 19.9 мм скрываются мощные компоненты – это процессор Intel Core i7-11370H и видеокарта GeForce RTX 3050 Ti 4GB, готовые вывести безупречное изображение на 144-герцевый дисплей. Протестированная на соответствие военно-промышленному стандарту MIL-STD, данная модель отличается повышенной прочностью и надежностью, что, в сочетании с отличной автономностью (до 16.6 часа без подзарядки), делает ее прекрасным выбором в качестве портативной геймерской системы для ежедневного использовани",
-<<<<<<< HEAD
-      "price": 100000,
-=======
       "price": 10000,
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       "image1": "https://softech.kg/image/cache/9c21c3a152ff7252c68f382feb2511b8.jpg",
       "image2": "https://softech.kg/image/cache/4c8b98cf84b3256479f760891107b321.jpg",
       "video": "not video",
@@ -686,14 +679,6 @@
   ],
   "comments": [
     {
-<<<<<<< HEAD
-      "comment": "dasdas",
-      "productId": 20,
-      "id": 1
-    },
-    {
-      "comment": "dsadsadas",
-=======
       "comment": "dasdsa",
       "productId": 3,
       "email": "sereuspro94@gmail.com",
@@ -701,24 +686,17 @@
     },
     {
       "comment": "выфвыф",
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       "productId": 2,
       "email": "sereuspro94@gmail.com",
       "id": 2
     },
     {
-<<<<<<< HEAD
-      "comment": "sdads",
-      "productId": 2,
-=======
       "comment": "вафаыфафы",
       "productId": 4,
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       "email": "sereuspro94@gmail.com",
       "id": 3
     },
     {
-<<<<<<< HEAD
       "comment": "dsadsa",
       "productId": 2,
       "email": "sereuspro94@gmail.com",
@@ -735,18 +713,6 @@
       "productId": 1,
       "email": "sereuspro94@gmail.com",
       "id": 7
-=======
-      "comment": "нуууд\n",
-      "productId": 4,
-      "email": "sereuspro94@gmail.com",
-      "id": 4
-    },
-    {
-      "comment": "dasda",
-      "productId": 2,
-      "email": "sereuspro94@gmail.com",
-      "id": 5
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
     }
   ],
   "brands": [
@@ -762,29 +728,17 @@
     },
     {
       "brand": "Lenovo",
-<<<<<<< HEAD
-      "logo": "https://softech.kg/image/cache/87090f0ecf40adea28e51cf2b00a8c5f.png",
-=======
       "logo": "https://lh3.googleusercontent.com/proxy/TxIiSLh9MQ_G-hX4_ycBwGX_karRabZWRf3InhKGCAF9qgDDZ1IcVReMRaois2aceWWNSvQMO72bCBJaZmeYa9FRusJD8ZzCDmOhDKUD5XhR5oI3T7utw-n7eQA-Wob5",
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       "id": 3
     },
     {
       "brand": "Acer",
-<<<<<<< HEAD
-      "logo": "https://softech.kg/image/cache/6e9b663f65ae8edb6726fe18226b74d2.png",
-=======
       "logo": "https://besthqwallpapers.com/Uploads/2-4-2021/160618/thumb2-acer-logo-orange-background-acer-3d-logo-3d-art-acer.jpg",
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       "id": 4
     },
     {
       "brand": "Dell",
-<<<<<<< HEAD
-      "logo": "https://softech.kg/image/cache/ba5c08edea4bd1855bb0610b67590231.png",
-=======
       "logo": "https://i.pinimg.com/originals/d5/09/9f/d5099fbca1f14ba14c1891af52837730.png",
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       "id": 5
     }
   ]

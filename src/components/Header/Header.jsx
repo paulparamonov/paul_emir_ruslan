@@ -69,7 +69,7 @@ const Header = () => {
           onClick={()=>setMenuActive(!menuActive)}
         />
         <Link to="/">
-          <h1 className="header-logo">Notebook Store</h1>
+          <h1 className="header-logo">Laptop Store</h1>
           <h1 className="ns">NS</h1>
         </Link>
       </div>

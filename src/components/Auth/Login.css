@@ -8,13 +8,12 @@
 .login-container {
   padding: 60px;
   margin: auto;
-<<<<<<< HEAD
   min-height: 400px;
   min-width: 370px;
-=======
+/* =======
   min-height: 300px;
   min-width: 220px;
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
+>>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a */
   display: flex;
   flex-direction: column;
   justify-content: center;

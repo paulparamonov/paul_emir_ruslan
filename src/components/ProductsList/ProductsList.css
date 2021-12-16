@@ -1,9 +1,6 @@
 .products-search {
     display: flex;
     justify-content: space-between;
-<<<<<<< HEAD
-}
-=======
 }
 
 @media screen and (max-width: 800px) {
@@ -14,4 +11,3 @@
     }
     
   }
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a

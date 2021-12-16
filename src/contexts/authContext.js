@@ -1,11 +1,4 @@
-<<<<<<< HEAD
-import { createContext, useState, useContext, useEffect } from "react";
 
-import fire from "../fire";
-
-export const authContext = createContext();
-
-=======
 import { createContext, useState, useContext, useEffect, useReducer } from "react";
 import {  clearCart } from "./cartContext";
 import fire from "../fire"
@@ -18,14 +11,10 @@ import {aut} from "../fire"
 export const authContext = createContext();
 
 // const {cart, clearCart} = useContext(cartContext);
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 export const useAuth = () => {
   return useContext(authContext);
 };
 
-<<<<<<< HEAD
-const AuthContextProvider = ({ children }) => {
-=======
 const INIT_STATE = {
   googleUser:null,
 }
@@ -41,7 +30,6 @@ const reducer =(state = INIT_STATE , action)=>{
 
 const AuthContextProvider = ({ children }) => {
   const [state,dispath]=useReducer(reducer,INIT_STATE)
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   const [user, setUser] = useState("");
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -60,8 +48,6 @@ const AuthContextProvider = ({ children }) => {
     setPasswordError("");
   };
 
-<<<<<<< HEAD
-=======
   const googleProvider = new GoogleAuthProvider();
   const authWithGoogle = async()=>{
     try {
@@ -71,7 +57,6 @@ const AuthContextProvider = ({ children }) => {
     }
   }
 
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   const handleSignUp = () => {
     clearErrors();
     fire
@@ -111,10 +96,6 @@ const AuthContextProvider = ({ children }) => {
 
   const handleLogout = (e) => {
     // e.preventDefault();
-<<<<<<< HEAD
-=======
-
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
     fire.auth().signOut()
   
   };
@@ -147,11 +128,8 @@ const AuthContextProvider = ({ children }) => {
     setHasAccount,
     emailError,
     passwordError,
-<<<<<<< HEAD
-=======
     authWithGoogle,
     googleUser:state.googleUser
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   };
 
   return <authContext.Provider value={values}>{children}</authContext.Provider>;

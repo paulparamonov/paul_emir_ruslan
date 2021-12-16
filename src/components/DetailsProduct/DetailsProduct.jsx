@@ -1,9 +1,6 @@
 import React, { useContext, useEffect, useState } from "react";
 import { useParams } from "react-router";
-<<<<<<< HEAD
-=======
 import { Link } from "react-router-dom";
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 
 import { Carousel, Button  } from "antd";
 import { HeartOutlined } from "@ant-design/icons";
@@ -47,24 +44,12 @@ const DetailsProduct = () => {
   }, [oneProduct]);
 
   return (
-<<<<<<< HEAD
-    <div className="container" style={{ marginTop: "20px" }}>
-=======
     <div className="container" style={{ marginTop: "80px" }}>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
       { product? (
         <>
           <div
             style={{
               display: "flex",
-<<<<<<< HEAD
-              justifyContent: "space-between",
-              alignItems: "center",
-              marginBottom: "20px",
-            }}
-          >
-            <div style={{ width: "35vw", border: "1px solid black" ,alignSelf:"start" }}>
-=======
               justifyContent: "center",
               alignItems: "center",
               marginBottom: "20px",
@@ -91,7 +76,6 @@ const DetailsProduct = () => {
                marginLeft:"50px"
                 }}>
             <div className="item-imag" style={{ width: "35vw", border: "1px solid black" ,alignSelf:"start" }}>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
               <Carousel 
                autoplay>
                 <div>
@@ -102,15 +86,9 @@ const DetailsProduct = () => {
                 </div>
               </Carousel>
             </div>
-<<<<<<< HEAD
-            <div style={{ width: "40vw" }}>
-              <h2>{product.brand}</h2>
-              <h3>{product.model}</h3>
-=======
               <h2>{product.brand}</h2>
               <h3>{product.model}</h3>
               
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
               <h2>{"$" + product.price}</h2>
               <Button
                 size="large"
@@ -121,20 +99,6 @@ const DetailsProduct = () => {
                 {checkItemInCart(product.id) ? 'REMOVE FROM CART' : 'ADD TO CART'}
               </Button>
               <Button
-<<<<<<< HEAD
-                size="large"
-                style={{ margin: "15px 0px", width: "100%" }}
-                onClick={() => addProductToFavorites(product)}
-              >
-                {checkItemInFavorites(product.id) ? 'REMOVE FROM FAV' : 'ADD TO FAVORITES'}
-              </Button>
-              
-                <HeartOutlined
-                style={{ margin: "15px 0px", width: "100%", fontSize:"30px" }}
-                />
-              
-              <div>{product.description}</div>
-=======
                 // size="large"
                 style={{ margin: "15px 0px", width: "100%" }}
                 onClick={() => addProductToFavorites(product)}
@@ -157,7 +121,6 @@ const DetailsProduct = () => {
                 <span id={product.id} class="likebtn-wrapper" data-lang="ru" data-identifier={product.id}> </span>
               
               <div  className="desc" style={{textOverflow:"ellipsis",}}>{product.description}</div>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
             </div>
           </div>
           <AddComment id={product.id}/>

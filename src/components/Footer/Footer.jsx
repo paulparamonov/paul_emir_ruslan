@@ -1,185 +1,73 @@
 import React from "react";
 import "./Footer.css";
-import {
-  InstagramOutlined,
-  FacebookOutlined,
-  TwitterOutlined,
-  YoutubeOutlined,
-  WhatsAppOutlined,
-} from "@ant-design/icons";
-<<<<<<< HEAD
-
-const Footer = () => {
-=======
-
-import {Menu} from "antd"
-
 
 
 const Footer = () => {
-  const { SubMenu } = Menu;
-  
-  
-  
-
-  function handleClick (e) {
-    console.log('click ', e);
-  }
-  
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   return (
-    <div className="first-footer">
-    <div className="back">
-        <a onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
-          BACK TO TOP
-        </a>
-      </div>
-    <div className="container">
-      
-      <div className="footer">
-<<<<<<< HEAD
-        <div className="foot">
-          <h3>CUSTOMER CAR</h3>
-          <a style={{ color: "black" }}>ContactUs</a>
-          <a style={{ color: "black" }}>Luxury Services</a>
-          <a style={{ color: "black" }}>Delivery Information</a>
-          <a style={{ color: "black" }}>Click & Collect</a>
-        </div>
+    <>
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
 
-        <div className="foot">
-          <h3>INFORMATION</h3>
-          <a style={{ color: "black" }}>Your Security</a>
-          <a style={{ color: "black" }}>Terms Of Service</a>
-          <a style={{ color: "black" }}>Privacy Policy</a>
-          <a style={{ color: "black" }}>Cookie Policy</a>
-        </div>
-
-        <div className="foot">
-          <h3>ABOUT WOS US</h3>
-          <a style={{ color: "black" }}>About Us</a>
-          <a style={{ color: "black" }}>Press Room</a>
-          <a style={{ color: "black" }}>Careers</a>
-          <a style={{ color: "black" }}>Newsletter Sign Up</a>
-        </div>
-
-        <div className="foot">
-=======
-        
-
-        <div className="foot">
-          <h3>INFORMATION</h3>
-          <a style={{ color: "black" }}>Your Security</a>
-          <a style={{ color: "black" }}>Terms Of Service</a>
-          <a style={{ color: "black" }}>Privacy Policy</a>
-          <a style={{ color: "black" }}>Cookie Policy</a>
-        </div>
-
-        <div className="foot">
-          <h3>ABOUT WOS US</h3>
-          <a style={{ color: "black" }}>About Us</a>
-          <a style={{ color: "black" }}>Press Room</a>
-          <a style={{ color: "black" }}>Careers</a>
-          <a style={{ color: "black" }}>Newsletter Sign Up</a>
-        </div>
-
-        <div className="foot">
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
-          <h3>CATEGORIES</h3>
-          <a style={{ color: "black" }}>NoteBook</a>
-          <a style={{ color: "black" }}>Brands</a>
-        </div>
-
-        <div className="foot">
-          <h3>FOLLOW US ON</h3>
-          <div className="ins">
-            <a>
-              <InstagramOutlined />
-            </a>
-            <a>
-              <FacebookOutlined />
-            </a>
-            <a>
-              <TwitterOutlined />
-            </a>
-            <a>
-              <YoutubeOutlined />
-            </a>
-            <a>
-              <WhatsAppOutlined />
-            </a>
           </div>
         </div>
-      </div>
-<<<<<<< HEAD
-=======
-      
-      <div className="DropFooter">
-      <div className="foot" style={{marginBottom:"20px"}}>
-          <h3>FOLLOW US ON</h3>
-          <div className="ins">
-            <a>
-              <InstagramOutlined />
-            </a>
-            <a>
-              <FacebookOutlined />
-            </a>
-            <a>
-              <TwitterOutlined />
-            </a>
-            <a>
-              <YoutubeOutlined />
-            </a>
-            <a>
-              <WhatsAppOutlined />
-            </a>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-sm-6 col-xs-12">
+              <p class="copyright-text">
+                Copyright &copy; 2021 All Rights Reserved
+                <a href="#">Go Up</a>.
+              </p>
+            </div>
+
+            <div class="col-md-4 col-sm-6 col-xs-12">
+              <ul class="social-icons">
+                <li>
+                   Контакты в соц.сетях
+                  <a
+                    class="facebook"
+                    href="https://www.facebook.com/videos?campaign_id=1669307470&extra_1=s%7Cc%7C518873133502%7Ce%7Cfacebook%7C&placement=&creative=518873133502&keyword=facebook&partner_id=googlesem&extra_2=campaignid%3D1669307470%26adgroupid%3D63446529566%26matchtype%3De%26network%3Dg%26source%3Dnotmobile%26search_or_content%3Ds%26device%3Dc%26devicemodel%3D%26adposition%3D%26target%3D%26targetid%3Dkwd-541132862%26loc_physical_ms%3D1009827%26loc_interest_ms%3D1012054%26feeditemid%3D65630132266%26param1%3D%26param2%3D&gclid=Cj0KCQiAnuGNBhCPARIsACbnLzpANbWxYKVfS29cXDdgC3EYmDr_Of-o-ohu2FIqmEO9kd-kb3gPIJEaAgXdEALw_wcB"
+                  >
+                    <img
+                      src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Facebook_svg-256.png"
+                      alt=""
+                    />
+                    <i class="fa fa-facebook"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="twitter" href="https://twitter.com/?lang=ru">
+                    <img
+                      src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Twitter5_svg-256.png"
+                      alt=""
+                    />
+                    <i class="fa fa-twitter"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="dribbble" href="https://www.instagram.com">
+                    <img
+                      src="https://cdn1.iconfinder.com/data/icons/social-media-rounded-corners/512/Rounded_Instagram_svg-256.png"
+                      alt=""
+                    />
+                    <i class="fa fa-dribbble"></i>
+                  </a>
+                </li>
+                <li>
+                  <a class="linkedin" href="https://web.telegram.org/z/">
+                    <img
+                      src="https://cdn2.iconfinder.com/data/icons/social-media-2421/512/Telegram-256.png"
+                      alt=""
+                    />
+                    <i class="fa fa-linkedin"></i>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-      <Menu
-        onClick={handleClick}
-        style={{ width: 256 ,background:"#F7F7F7"}}
-        defaultSelectedKeys={['1']}
-        defaultOpenKeys={['sub1']}
-        mode="inline"
-      >
-        <SubMenu key="sub1"  title="INFORMATION">
-       
-          
-            <Menu.Item key="1">Your Security</Menu.Item>
-            <Menu.Item key="2">Terms Of Service</Menu.Item>
-            <Menu.Item key="5">Privacy Policy</Menu.Item>
-            <Menu.Item key="6">Cookie Policy</Menu.Item>
-          
-          
-        </SubMenu>
-        <SubMenu key="sub2"  title="ABOUT WOS US">
-        <Menu.Item key="9">About Us</Menu.Item>
-          <Menu.Item key="10">Press Room</Menu.Item>
-          <Menu.Item key="11">Careers</Menu.Item>
-          <Menu.Item key="12">Newsletter Sign Up</Menu.Item>
-          
-        </SubMenu>
-        <SubMenu key="sub4"  title="CATEGORIES">
-        
-          <Menu.Item key="13">Brands</Menu.Item>
-          <Menu.Item key="14">Products</Menu.Item>
-        </SubMenu>
-      </Menu>
-      </div>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
-      <img
-        src="https://www.watchesofswitzerland.com/medias/usa-payment-options-group-1121.png?context=bWFzdGVyfHJvb3R8NTA1M3xpbWFnZS9wbmd8aDIwL2hkNS85MTIyMTcxMTI1NzkwLnBuZ3wzZDQ5ZGZhMjc2NjM4MzBlZjZhMjk1NzcyOWEyOGUwYzVjNGZiNzAzZGZmYjQ5Y2U5M2E1MTUxYzU5ZWRmMjVj"
-        alt=""
-      />
-
-      <p style={{ marginTop: "3%", marginLeft: "1%" }}>
-        Copyright © 2021 Score Notebook of Ruslan,Pavel,Emir. All rights reserved.
-      </p>
-
-      <a style={{ marginLeft: "1%", color: "black" }}>
-        The Score Notebook of Ruslan and Pavel the Emir 
-      </a>
-      </div>
-    </div>
+      </footer>
+    </>
   );
 };
 

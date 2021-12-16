@@ -82,8 +82,6 @@ const FavoritesContextProvider = ({ children }) => {
     getFavorites();
   }
 
-<<<<<<< HEAD
-=======
   function clearFavorites(){
     localStorage.removeItem('favorites')
       dispatch({
@@ -91,7 +89,6 @@ const FavoritesContextProvider = ({ children }) => {
       });
   }
 
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   function checkItemInFavorites(id) {
     let favorites = JSON.parse(localStorage.getItem("favorites"));
     if (!favorites) {

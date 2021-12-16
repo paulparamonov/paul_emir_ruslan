@@ -105,10 +105,6 @@ const CartContextProvider = ({ children }) => {
     });
   }
 
-<<<<<<< HEAD
-/*
-
-=======
 
 function clearCart(){
   localStorage.removeItem('cart')
@@ -120,7 +116,6 @@ function clearCart(){
 /*
 
 
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 */
   
   

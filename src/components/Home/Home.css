@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 /* .carusel
 { 
  height: 160px; 
@@ -27,11 +26,9 @@
     justify-content: flex-end;
     text-align: center;
 } */
-=======
 #root {
   background-color: #F7F7F7;
 }
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 .recom_img{
     height: 200px;
 }
@@ -40,17 +37,14 @@ a{
     text-decoration: none;
 }
 
-<<<<<<< HEAD
 .carusel {
   border-radius: 22px;
   height: 700px;
 }
-=======
 /* .carusel {
   border-radius: 22px;
   height: 700px;
 } */
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 .img {
   display: flex;
   flex-wrap: wrap;
@@ -76,10 +70,7 @@ img {
   justify-content: space-around;
 }
 
-<<<<<<< HEAD
-=======
 
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 @media screen and (max-width: 1000px) {
   .cards {
     justify-content: center;
@@ -87,13 +78,10 @@ img {
 }
 
 @media screen and (max-width: 900px) {
-<<<<<<< HEAD
   .main-img {
     margin-top: 55px;
-=======
-  
+  }
   .home-body {
     margin-top: 45px;
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   }
 }

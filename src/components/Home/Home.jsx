@@ -1,108 +1,15 @@
 import React from "react";
 import "./Home.css";
-<<<<<<< HEAD
 import { Card } from "antd";
-import { Carousel } from "react-bootstrap";
-=======
-import { Card , Carousel } from "antd";
+
+import {  Carousel } from "antd";
 // import { Carousel } from "react-bootstrap";
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const { Meta } = Card;
 const Home = () => {
-<<<<<<< HEAD
-  return (
-    <div className="container">
-      <Carousel fade >
-        <Carousel.Item >
-          <img className='carusel'
-            className="d-block w-100 carusel"
-            src="https://9to5mac.com/wp-content/uploads/sites/6/2020/05/2020-13-inch-MacBook-Pro.png    "
-            alt="First slide"
-          />
-          <Carousel.Caption >
-            <h3 >MacBook Pro</h3>
-            <p>
-              M1 Max — невероятно мощный чип для ноутбуков профессионального
-              уровня. Он оснащается 10‑ядерным процессором, графическим
-              процессором до 32 ядер и 16‑ядерной системой Neural Engine.
-              Скорость обработки графики и пропускная способность памяти у этого
-              чипа вдвое больше, чем у M1 Pro. Кодирование видео происходит до 2
-              раз быстрее, поскольку в M1 Max установлено два медиапроцессора
-              для кодирова­ния и отдельный медиапроцессор для декодирова­ния, а
-              два ускорителя ProRes помогают при работе с несколькими потоками
-              видео.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img 
-            className="d-block w-100 carusel"
-            src="https://ru.gecid.com/data/nouts/202008170800-60878/img/01_acer_aspire_7_a715-41g.jpg"
-            alt="Third slide"
-          />
 
-          <Carousel.Caption>
-            <h3>Acer Aspire 7 A715-41G</h3>
-            <p>
-              Acer Aspire 7 A715-41G приехал к нам на тестирование в одной из
-              самых доступных модификаций NH.Q8LEU.004, стоимость которой на
-              данный момент с учетом акционных предложений крупнейших
-              интернет-магазинов составляет 19 999 грн. ($728). Ее оснащение
-              включает в себя 4-ядерный 8-поточный процессор AMD Ryzen 5 3550H с
-              интегрированной графикой Radeon Vega 8, дискретную видеокарту
-              NVIDIA GeForce GTX 1650 с видеопамятью GDDR6, 8 ГБ оперативной
-              памяти и твердотельный накопитель объемом 512 ГБ. В теории такая
-              конфигурация должна хорошо справляться с играми в Full HD и
-              большинством рабочих задач. Так ли это на самом деле? Давайте
-              разбираться.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 carusel"
-            src="https://images.firstpost.com/wp-content/uploads/2021/05/Asus-S17.jpg"
-            alt="Second slide"
-          />
-
-          <Carousel.Caption>
-            <h3>OG Zephyrus S17</h3>
-            <p>
-              Asus Republic of Gamers (ROG) «Для тех, кто осмелится: выпустить
-              на волю тигра изнутри». Согласно пресс-релизу, на этом мероприятии
-              во всем мире были представлены два новых игровых ноутбука, а
-              именно ROG Zephyrus S17 оснащен процессором Intel Core i9-11900H
-              11-го поколения и оптико-механической клавиатурой, обеспечивающей
-              превосходное охлаждение. Клавиатура поднята под углом 5 градусов,
-              что позволяет новым вентиляторам Arc Flow подавать охлаждающий
-              воздух в ноутбук. Он оснащен мощным звуком с шестью динамиками.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-        <Carousel.Item>
-          <img
-            className="d-block w-100 carusel"
-            src="https://www.ixbt.com/img/n1/news/2021/3/4/anons_xiaomi_mi_notebook_pro_14_i_pro_15_premium_noutbuki_v_metalle_picture2_0_large.jpg"
-            alt="Third slide"
-          />
-
-          <Carousel.Caption>
-            <h3>Xiaomi Mi Laptop Pro 15</h3>
-            <p>
-              Xiaomi Mi Laptop Pro 15” оснащён процессорами Intel Core 11-го
-              поколения: Core i5 в стандартной комплектации или Core i7. В обоих
-              случаях установлен графический процессор GeForce MX450 с 2 ГБ
-              видеопамяти. Охлаждение осуществляется двумя вентиляторами. Этот
-              ноутбук соответствует строгим требованиям сертификации платформы
-              Intel Evo Platform.
-            </p>
-          </Carousel.Caption>
-        </Carousel.Item>
-      </Carousel>
-=======
   const contentStyle = {
     height: 'auto',
     
@@ -126,17 +33,10 @@ const Home = () => {
        />
       </h3>
     </div>
-    <div>
-      <h3 style={contentStyle}>
-      <img
-      src="https://images.firstpost.com/wp-content/uploads/2021/05/Asus-S17.jpg"
-       />
-      </h3>
-    </div>
+    
     
   </Carousel>,
       
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
 
       <div className="img">
         <a>
@@ -248,10 +148,7 @@ const Home = () => {
         </Card>
       </div>
     </div>
-<<<<<<< HEAD
-=======
     </div>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
   );
 };
 

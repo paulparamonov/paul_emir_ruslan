@@ -101,11 +101,8 @@ const Login = () => {
         </Button>
       </Form.Item>
     </Form>
-<<<<<<< HEAD
           
-=======
           <button onClick={authWithGoogle}>Войти через Google</button>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
         </div>
       </section>
     </>

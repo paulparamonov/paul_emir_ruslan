@@ -20,11 +20,7 @@ const AddBrandModal = () => {
   };
   return (
     <>
-<<<<<<< HEAD
-      <Button type="primary" onClick={showModal}>
-=======
       <Button type="danger" onClick={showModal}>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
         Add brand
       </Button>
       <Modal
@@ -71,11 +67,7 @@ const AddBrandModal = () => {
               span: 16,
             }}
           >
-<<<<<<< HEAD
-            <Button type="primary" htmlType="submit">
-=======
             <Button type="danger" htmlType="submit">
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
               Add brand
             </Button>
           </Form.Item>

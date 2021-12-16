@@ -36,11 +36,7 @@ const Payment = () => {
     } 
 
     return (
-<<<<<<< HEAD
-        <div className='cart-payment-form'>
-=======
         <div className='cart-payment-form' style={{marginTop:"25px"}}>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
             <form onSubmit={sendForm}>
                 <ul>
                     {cart.products?.map(value => <li>
@@ -67,53 +63,7 @@ const Payment = () => {
                 <div>
                 <span style={{textAlign: 'right'}}>
                 {<h2>Total: {cart?.totalPrice}$</h2>}
-<<<<<<< HEAD
-                            </span>
-                    <input 
-                        placeholder="IVAN IVANOV"
-                        type='text'
-                        onChange={inputHandler('number')}
-                        required
-                     />
-                    <br/>
-                    <input 
-                        placeholder="2345 1234 1234 1234"
-                        type='number'
-                        onChange={inputHandler('number')}
-                        required
-                     />
-                    <br/>
-                    <input 
-                        placeholder="09/22"
-                        type='text'
-                        onChange={inputHandler('number')}
-                        required
-                     />
-                    <br/>  
-                    <input 
-                        placeholder="CVC"
-                        type='number'
-                        onChange={inputHandler('number')}
-                        required
-                     />
-                    <br/>      
-                    <input 
-                        placeholder="tel number"
-                        type='tel'
-                        onChange={inputHandler('number')}
-                        required
-                     />
-                    <br/>
-                    <input 
-                        placeholder="address" 
-                        type='text'
-                        onChange={inputHandler('address')}
-                        required
-                        />
-                </div>
-                
-                <button  type="submit">Оплатить</button>
-=======
+
                 <img
         src="https://www.watchesofswitzerland.com/medias/usa-payment-options-group-1121.png?context=bWFzdGVyfHJvb3R8NTA1M3xpbWFnZS9wbmd8aDIwL2hkNS85MTIyMTcxMTI1NzkwLnBuZ3wzZDQ5ZGZhMjc2NjM4MzBlZjZhMjk1NzcyOWEyOGUwYzVjNGZiNzAzZGZmYjQ5Y2U5M2E1MTUxYzU5ZWRmMjVj"
         alt=""
@@ -180,7 +130,6 @@ const Payment = () => {
                 </div>
                 
                 <button  type="submit" style={{marginTop:"10px"}}>Оплатить</button>
->>>>>>> 053a03af5d177fa381e9eae9e4f43364b3872a9a
             </form>
         </div>
     );
