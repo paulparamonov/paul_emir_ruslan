@@ -4,6 +4,8 @@ import { Link } from "react-router-dom";
 
 import { Carousel, Button  } from "antd";
 import { HeartOutlined } from "@ant-design/icons";
+import {  ContactsOutlined  , MenuOutlined, TagOutlined,BookOutlined  } from "@ant-design/icons";
+
 
 import Comments from '../Comments/Comments'
 import AddComment from "../Comments/ComentItem";
@@ -53,20 +55,11 @@ const DetailsProduct = () => {
               justifyContent: "center",
               alignItems: "center",
               marginBottom: "20px",
+              color: "white",
               
             }}
           >
-            <div className="item-image" style={{ maxWidth: "35vw", border: "1px solid black" ,alignSelf:"start" }}>
-              <Carousel 
-               autoplay>
-                <div>
-                  <img width="100%" src={product.image1} alt="" />
-                </div>
-                <div>
-                  <img width="100%" src={product.image2} alt="" />
-                </div>
-              </Carousel>
-            </div>
+        
             <div style={{
               display: "flex",
               flexDirection:"column",
@@ -75,60 +68,63 @@ const DetailsProduct = () => {
                width: "40vw",
                marginLeft:"50px"
                 }}>
-            <div className="item-imag" style={{ width: "35vw", border: "1px solid black" ,alignSelf:"start" }}>
-              <Carousel 
-               autoplay>
-                <div>
-                  <img width="100%" src={product.image1} alt="" />
-                </div>
-                <div>
-                  <img width="100%" src={product.image2} alt="" />
-                </div>
-              </Carousel>
+                  
+                  <div  className="desc" style={{textOverflow:"ellipsis",}}>{product.description}</div>
+                <span>
+
+                  <TagOutlined
+                    size="large"
+                    style={{ margin: "5px 15px", width: "160px" , fontSize: '40px'}}
+                    onClick={() => addProductToCart(product)}
+              
+                  >
+                    {checkItemInCart(product.id) ? 'Back' : 'Add to basket '}
+                  </TagOutlined>
+                  <Link to="/products">
+
+                  <MenuOutlined
+                    size="large"
+                    style={{ margin: "5px 15px", width: "160px" , fontSize: '40px'}}
+                    
+              
+                  >
+                    {checkItemInCart(product.id) ? 'Back' : 'Add to basket '}
+                  </MenuOutlined>
+                </Link>
+                  <BookOutlined
+                    size="large"
+                    style={{ margin: "5px 15px", width: "160px", fontSize: '40px', color:"white !impotent"}}
+                    onClick={() => addProductToFavorites(product)}
+                  >
+                    {checkItemInFavorites(product.id) ? 'Back' : 'Add to beloved'}
+                  </BookOutlined>
+                  </span>
+                  <Link to="/payment">
+                  <Button
+                    // size="large"
+                    style={{ margin: "15px 0px", width: "100%" }}
+                    onClick={() => addProductToCart(product)}
+                  >
+                    Go to pay
+                  </Button>
+                  </Link>
+            <div className="item-imag" style={{ width: "35vw" ,alignSelf:"start" }}>
+           
             </div>
-              <h2>{product.brand}</h2>
-              <h3>{product.model}</h3>
+              <h3>{product.name__uni}</h3>
+               <h2>{"$" + product.price}</h2>
+            
               
-              <h2>{"$" + product.price}</h2>
-              <Button
-                size="large"
-                style={{ margin: "15px 0px", width: "100%" }}
-                onClick={() => addProductToCart(product)}
-          
-              >
-                {checkItemInCart(product.id) ? 'REMOVE FROM CART' : 'ADD TO CART'}
-              </Button>
-              <Button
-                // size="large"
-                style={{ margin: "15px 0px", width: "100%" }}
-                onClick={() => addProductToFavorites(product)}
-              >
-                {checkItemInFavorites(product.id) ? 'REMOVE FROM FAV' : 'ADD TO FAV'}
-              </Button>
-              <Link to="/payment">
-              <Button
-                // size="large"
-                style={{ margin: "15px 0px", width: "100%" }}
-                onClick={() => addProductToCart(product)}
-              >
-                BUY
-              </Button>
-              </Link>
               
-                {/* <HeartOutlined
-                style={{ margin: "15px 0px", width: "100%", fontSize:"30px" }}
-                /> */}
-                <span id={product.id} class="likebtn-wrapper" data-lang="ru" data-identifier={product.id}> </span>
-              
-              <div  className="desc" style={{textOverflow:"ellipsis",}}>{product.description}</div>
             </div>
+          <AddComment className='addcomi' id={product.id}/>
           </div>
-          <AddComment id={product.id}/>
-          <Comments id={product.id} />
+          <Comments className='comi'  id={product.id} />
           
         </>
       ) : (
-        <h2>Loading...</h2>
+        <h2>Загрузка, 
+          подождите</h2>
       )}
     </div>
   );

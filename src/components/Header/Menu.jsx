@@ -11,38 +11,20 @@ const Menu = ({ setActive, active }) => {
   } = useAuth();
 
   const NAV_ITEMS = [
+ 
     {
-      title: "Бренды",
-      link: "/brands",
-      id: 1,
-    },
-    {
-      title: "Ноутбуки",
+      title: "Tickets",
       link: "/products",
       id: 2,
     },
-    {
-      title: "Магазины",
-      link: "/map",
-      id: 3,
-    },
-    {
-      title: "Акции",
-      link: "/sale",
-      id: 4,
-    },
-    {
-      title: "Контакты",
-      link: "/contacts",
-      id: 5,
-    },
+   
   ];
     return (
         <div className={active ? 'menu active': 'menu' } onClick={()=>setActive(false)}>
                 <div className="menu-content" onClick={e=>e.stopPropagation()} >
                 <div className="navbar-burger">
         {NAV_ITEMS.map((item) => (
-          <Link
+          <Link 
             to={item.link}
             className={
               location.pathname === item.link
@@ -50,22 +32,22 @@ const Menu = ({ setActive, active }) => {
                 : "navbar__item"
             }
           >
-            {item.title}
+            <a href="" className="btnn">{item.title}</a>
           </Link>
         ))}
-
-        {email === "sereuspro94@gmail.com" ? (
-          <Link
-            className={
+        {email === "emir6816@gmail.com" ? (
+          <Link 
+            className={ 
               location.pathname === "/admin"
                 ? "navbar__item-active"
                 : "navbar__item"
             }
             to="/admin"
           >
-            ADMIN
+            <a href="" className="btnn">Adminka</a>
           </Link>
         ) : null}
+
       </div>
                 </div>
             </div>

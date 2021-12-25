@@ -1,9 +1,7 @@
 import React from "react";
 import { Row, Col } from "antd";
 
-import AddBrandModal from "../components/AddBrandModal/AddBrandModal";
 import AddProductModal from "../components/AddProductModal/AddProductModal";
-import AdminBrandsList from "../components/AdminBrandsList/AdminBrandsList";
 import AdminProductsList from "../components/AdminProductsList/AdminProductsList";
 
 const AdminPage = () => {
@@ -12,8 +10,6 @@ const AdminPage = () => {
       <Row>
         <Col span={12}>
           <Col span={22}>
-            <AddBrandModal />
-            <AdminBrandsList />
           </Col>
         </Col>
         <Col span={12}>

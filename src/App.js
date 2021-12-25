@@ -4,7 +4,6 @@ import { BrowserRouter } from "react-router-dom";
 
 import AuthContextProvider from "./contexts/authContext";
 import ProductsContextProvider from "./contexts/productsContext";
-import BrandsContextProvider from "./contexts/brandsContext";
 import CommentContextProvider from "./contexts/commentContext";
 import CartContextProvider from "./contexts/cartContext";
 import FavoritesContextProvider from "./contexts/FavoritesContext";
@@ -22,7 +21,6 @@ const App = () => {
     <AuthContextProvider>
       <CartContextProvider>
       <FavoritesContextProvider>
-        <BrandsContextProvider>
         <CommentContextProvider>
           <ProductsContextProvider>
             <BrowserRouter>
@@ -32,7 +30,6 @@ const App = () => {
             </BrowserRouter>
           </ProductsContextProvider>
           </CommentContextProvider>
-        </BrandsContextProvider>
       </FavoritesContextProvider>
       </CartContextProvider>
     </AuthContextProvider>

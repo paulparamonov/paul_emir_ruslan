@@ -2,13 +2,10 @@ import React, { useContext, useEffect, useState } from "react";
 import { Modal, Button, Form, Input, Select, InputNumber } from "antd";
 
 import { productsContext } from "../../contexts/productsContext";
-import { brandsContext } from "../../contexts/brandsContext";
 
 const AddProductModal = () => {
   const { createProduct } = useContext(productsContext);
-  const { getBrands, brands } = useContext(brandsContext);
   useEffect(() => {
-    getBrands();
   }, []);
 
   const [isModalVisible, setIsModalVisible] = useState(false);
@@ -42,24 +39,7 @@ const AddProductModal = () => {
           autoComplete="off"
           layout="vertical"
         >
-          <Form.Item
-            label="Brand"
-            name="brand"
-            rules={[
-              {
-                required: true,
-                message: "Please input brand!",
-              },
-            ]}
-          >
-            <Select>
-              {brands.map((item) => (
-                <Select.Option key={item.id} value={item.brand}>
-                  {item.brand}
-                </Select.Option>
-              ))}
-            </Select>
-          </Form.Item>
+          
 
           <Form.Item
             label="Model"

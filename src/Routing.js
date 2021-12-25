@@ -2,7 +2,7 @@ import React from "react";
 import { Routes, Route, Navigate } from "react-router-dom";
 
 import Auth from "./components/Auth/Auth";
-import BrandsList from "./components/BrandsList/BrandsList";
+
 // import Comments from "./components/Comments";
 import Cart from "./components/Cart/Cart";
 
@@ -33,11 +33,7 @@ const Routing = () => {
       element: <Auth />,
       id: 3,
     },
-    {
-      link: "/brands",
-      element: <BrandsList />,
-      id: 4,
-    },
+   
     {
       link: "/products/:id",
       element: <DetailsProduct />,
@@ -58,12 +54,7 @@ const Routing = () => {
       element: <Payment />,
       id: 8
     },
-    // {
-    //   link: "/comments",
-    //   element: <Comments />,
-    //   id: 9
-    // }
-   
+  
   ];
   const ADMIN_ROUTES = [
     {
@@ -87,7 +78,7 @@ const Routing = () => {
         <Route
           path={item.link}
           element={
-            user.email === "sereuspro94@gmail.com" ? (
+            user.email === "emir6816@gmail.com" ? (
               item.element
             ) : (
               <Navigate replace to="*" />

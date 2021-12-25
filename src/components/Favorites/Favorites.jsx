@@ -15,7 +15,7 @@ const Favorites = () => {
         itemLayout="vertical"
         size="large"
         dataSource={favorites?.products}
-        footer={<h2>Total: {favorites?.totalPrice}$</h2>}
+        footer={<h2>Итог: {favorites?.totalPrice}$</h2>}
         renderItem={(item) => <FavoritesItem item={item} />}
       />
     </div>

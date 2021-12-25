@@ -1,6 +1,7 @@
 import React, { useContext } from "react";
 import { List, InputNumber, Button } from "antd";
 import { cartContext } from "../../contexts/cartContext";
+import './c.css'
 
 const CartItem = ({ item }) => {
   // console.log(item);
@@ -20,10 +21,9 @@ const CartItem = ({ item }) => {
             }}
           >
             <div>
-              <h3>{item.item.brand}</h3>
-              <h4>{item.item.model}</h4>
+              <h4>{item.item.name__uni}</h4>
             </div>
-            <h3>{"$" + item.item.price}</h3>
+            
           </div>
         }
         description={
@@ -39,15 +39,15 @@ const CartItem = ({ item }) => {
               }}
             >
               <div>
-                <h4>Quantity</h4>
-                <Button
+                <h4 >Количество</h4>
+                <Button className="coll"
                   onClick={() =>
                     changeProductCount(item.count - 1, item.item.id)
                   }
                 >
                   -
                 </Button>
-                <InputNumber value={item.count} disabled />
+                <InputNumber  className="coll" value={item.count} disabled />
                 <Button
                   onClick={() =>
                     changeProductCount(item.count + 1, item.item.id)
@@ -57,12 +57,12 @@ const CartItem = ({ item }) => {
                 </Button>
               </div>
               <div>
-                <h4>SubPrice</h4>
+                <h4>Итог</h4>
                 <h3>{"$" + item.subPrice}</h3>
               </div>
             </div>
             <Button onClick={() => deleteFromCart(item.item.id)}>
-              Remove from cart
+              Remove 
             </Button>
             
           </>

@@ -52,14 +52,7 @@ const AdminProductsList = () => {
               <Link to={`/products/${item.id}`}>more</Link>,
             ]}
           >
-            <List.Item.Meta
-              avatar={<Avatar src={item.image1} />}
-              title={
-                <a>
-                  {item.brand}, {item.model}
-                </a>
-              }
-            />
+           
           </List.Item>
         )}
       />

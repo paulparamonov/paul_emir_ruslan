@@ -3,7 +3,9 @@
   margin: 0;
   padding: 0;
 }
-
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6{
+  color: white;
+}
 
 .container {
   width: 80vw;
@@ -33,31 +35,14 @@ img{
   margin-left: 0;
 }
 
-.map-container {
-  display: flex;
-  justify-content: center;
+
   
-  height: 500px;
-}
-.google-map{
-  
-}
+
 @media screen and (max-width: 900px){
-  .google-map{
-    margin-top: 60px;
-    margin-left: 0px;
-  }
-  .map-container{
-    
-    /* margin-left: 100px; */
-  }
+ 
 }
 
 @media screen and (max-width: 900px){
-  .map-container{
-    
-    height: 400px;
-    
-  }
+ 
   
 }

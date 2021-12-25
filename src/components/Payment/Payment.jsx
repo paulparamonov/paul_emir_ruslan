@@ -36,15 +36,14 @@ const Payment = () => {
     } 
 
     return (
+        <span className='s'>
         <div className='cart-payment-form' style={{marginTop:"25px"}}>
             <form onSubmit={sendForm}>
                 <ul>
                     {cart.products?.map(value => <li>
                         <div className="product-card-table">
                             <img width={50} src={value.item.image1}/>  
-                            <span>
-                            {value.item.brand}  
-                            </span>
+                         
                             <span style={{textAlign: 'right'}}>
                                 {  value.count  + "шт"}
                             </span>
@@ -64,16 +63,19 @@ const Payment = () => {
                 <span style={{textAlign: 'right'}}>
                 {<h2>Total: {cart?.totalPrice}$</h2>}
 
-                <img
-        src="https://www.watchesofswitzerland.com/medias/usa-payment-options-group-1121.png?context=bWFzdGVyfHJvb3R8NTA1M3xpbWFnZS9wbmd8aDIwL2hkNS85MTIyMTcxMTI1NzkwLnBuZ3wzZDQ5ZGZhMjc2NjM4MzBlZjZhMjk1NzcyOWEyOGUwYzVjNGZiNzAzZGZmYjQ5Y2U5M2E1MTUxYzU5ZWRmMjVj"
-        alt=""
-      />
+                    </span><img className='img1'
+                    src="https://cdn3.iconfinder.com/data/icons/remixicon-logos/24/visa-fill-256.png"
+                    alt=""
+                  />
+                  <img className='img1'src="https://cdn1.iconfinder.com/data/icons/picons-social/57/social_mastercard-512.png" alt="" />
+                <span>
+      
                             </span>
                             <br/>
                             <label>Name Surname</label>
                             <br/>
-                    <input 
-                        placeholder="IVAN IVANOV"
+                    <input className='oplata subscribe__input'
+                        placeholder="Name SurName"
                         type='text'
                         onChange={inputHandler('name')}
                         maxLength="20"
@@ -82,7 +84,7 @@ const Payment = () => {
                     <br/>
                     <label>Card num</label>
                     <br/>
-                    <input 
+                    <input className='oplata subscribe__input'
                         placeholder="2345 1234 1234 1234"
                         type='number'
                         onChange={inputHandler('cardNumber')}
@@ -91,9 +93,9 @@ const Payment = () => {
                     <br/>
                     <label>Card date</label>
                     <br/>
-                    <input 
+                    <input className='oplata subscribe__input'
                         placeholder="09/22"
-                        type='text'
+                        type='number'
                         onChange={inputHandler('cardDate')}
                         required="required" 
                         maxLength="5"
@@ -101,7 +103,7 @@ const Payment = () => {
                     <br/> 
                     <label>CVC</label> 
                     <br/>
-                    <input 
+                    <input className='oplata subscribe__input'
                         placeholder="555"
                         type='number'
                         onChange={inputHandler('cardCVC')}
@@ -111,8 +113,8 @@ const Payment = () => {
                     <br/>  
                     <label>Phone number</label>  
                     <br/>  
-                    <input 
-                        placeholder="+996703219464"
+                    <input className='oplata subscribe__input'
+                        placeholder="+996555125125"
                         type='tel'
                         onChange={inputHandler('number')}
                         required="required" 
@@ -121,17 +123,18 @@ const Payment = () => {
                     <br/>
                     <label>Adress</label>
                     <br/>
-                    <input 
-                        placeholder="Bishkek.Manasa.26" 
+                    <input className='oplata subscribe__input'
+                        placeholder="Bishkek.6.13" 
                         type='text'
                         onChange={inputHandler('address')}
                         required="required" 
                         />
                 </div>
                 
-                <button  type="submit" style={{marginTop:"10px"}}>Оплатить</button>
+                <button  className='oplata subscribe__btn' type="submit" style={{marginTop:"10px"}}>Pay</button>
             </form>
         </div>
+        </span>
     );
 };
 

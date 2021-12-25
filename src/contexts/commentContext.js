@@ -1,4 +1,4 @@
-import React, { useReducer, useEffect , useState , useContext} from "react";
+import React, { useReducer,} from "react";
 import axios from "axios";
 
 import { CASE_GET_COMMENTS } from "../helpers/cases";

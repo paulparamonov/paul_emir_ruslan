@@ -113,14 +113,6 @@ function clearCart(){
     });
 }
 
-/*
-
-
-*/
-  
-  
-  
-
 
   function changeProductCount(count, id) {
     if (count <= 0) {

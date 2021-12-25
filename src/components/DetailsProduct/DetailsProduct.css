@@ -3,6 +3,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    width: 300px;
 }
 
 .comments-form button {
@@ -10,8 +11,31 @@
     
 
 }
+.desc{
+    margin-top: 100px;
+    margin-bottom: 50px;
+}
 
 
+
+
+#bo{
+    width: 160px ;
+    height: 100px;
+}
+
+
+
+textarea.ant-input{
+    width: 300px;
+}
+.ant-carousel .slick-list .slick-slide > div > div{
+    width: 500px !important;
+}
+.ant-carousel .slick-slide img{
+    width: 500px !important;
+    height: 500px !important;
+}
 
 .item-imag{
     display: none;
@@ -20,8 +44,21 @@
 .item-image{
     display: none;
 }
+
+button, select{
+    border-radius: 105px !important;
+    background-color: rgb(31, 21, 75) !important;
+}
+
 .item-imag{
     display: block;
 }
      
    }
+
+@media screen and (max-width: 970px){
+    textarea.ant-input{
+        width: 120px !important;
+    
+    }
+}

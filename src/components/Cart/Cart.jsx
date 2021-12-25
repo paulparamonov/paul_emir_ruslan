@@ -3,6 +3,7 @@ import { Link, useLocation } from "react-router-dom";
 import { List } from "antd";
 import { cartContext } from "../../contexts/cartContext";
 import CartItem from "./CartItem";
+import './c.css'
 
 const Cart = () => {
   const { getCart, cart } = useContext(cartContext);
@@ -16,12 +17,14 @@ const Cart = () => {
         itemLayout="vertical"
         size="large"
         dataSource={cart?.products}
-        footer={<h2>Total: {cart?.totalPrice}$</h2>}
+        footer={<h2>Итог: {cart?.totalPrice}$</h2>}
         renderItem={(item) => <CartItem item={item} />}
       />
       <Link
       to="/payment" >
-              Оформить заказ
+
+      
+             <button className="btnn1"  >Перейти к оплате</button>
             </Link>
     </div>
   );

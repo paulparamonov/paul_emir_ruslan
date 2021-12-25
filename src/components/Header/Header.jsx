@@ -1,8 +1,8 @@
 import React, { useContext, useEffect, useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 
-import { Badge } from "antd";
-import { ShoppingCartOutlined , UserOutlined , StarOutlined,MenuOutlined  } from "@ant-design/icons";
+import { Badge, Button} from "antd";
+import {  ContactsOutlined  , MenuOutlined, TagOutlined,BookOutlined  } from "@ant-design/icons";
 import  Menu  from "./Menu";
 
 import { useAuth } from "../../contexts/authContext";
@@ -10,6 +10,7 @@ import { cartContext } from "../../contexts/cartContext";
 import { FavoritesContext } from "../../contexts/FavoritesContext";
 
 import "./Header.css";
+// import { Button } from "bootstrap";s
 
 const Header = () => {
   const location = useLocation();
@@ -27,34 +28,16 @@ const Header = () => {
   }, []);
   const [menuActive, setMenuActive]=useState(false)
   const NAV_ITEMS = [
+
     {
-      title: "Бренды",
-      link: "/brands",
-      id: 1,
-    },
-    {
-      title: "Ноутбуки",
+      title: "Ticket",
       link: "/products",
       id: 2,
     },
-    {
-      title: "Магазины",
-      link: "/map",
-      id: 3,
-    },
-    {
-      title: "Акции",
-      link: "/sale",
-      id: 4,
-    },
-    {
-      title: "Контакты",
-      link: "/contacts",
-      id: 5,
-    },
+    
   ];
   return (
-    <>
+    <div className="nav_over">
       <nav>
       <div className="logo">
         {/* <div className="burger-menu">
@@ -68,34 +51,22 @@ const Header = () => {
           style={{ fontSize: "30px", cursor: "pointer" ,color:"white"}}
           onClick={()=>setMenuActive(!menuActive)}
         />
-        <Link to="/">
-          <h1 className="header-logo">Laptop Store</h1>
-          <h1 className="ns">NS</h1>
+        <Link  style={{ textDecoration:'none'}} to="/">
+          <h1 className="home">Home</h1>
         </Link>
-      </div>
-
-      <div className="right-nav">
-
-      <p className="greetings">
-      Привет, {email ? (
-       <span>{email}</span>
-          ) : 
-          <span>Гость</span>}
-          </p>
-
-        <div className="auth-icon">
+        <div className="auth-icon navbar" >
           {email ? (
             <Link to="/auth">
-              <button className="logout-btn" style={{cursor: "pointer"}} onClick={handleLogout}>
-              Logout
-              </button>
+              <Button  className="logout-btn btnn" style={{cursor: "pointer"}} onClick={handleLogout}>
+              Log out
+              </Button>
             </Link>
           ) : null}
 
           {email ? null : (
             <Link to="/auth">
               <button className="sign-btn">
-              <UserOutlined
+              <ContactsOutlined 
                style={{cursor: "pointer"}}/>
               </button>
             </Link>
@@ -104,41 +75,25 @@ const Header = () => {
         <div className="cart">
         <Link to="/cart">
             <Badge count={+cartLength}>
-              <ShoppingCartOutlined
-                style={{ fontSize: "30px", cursor: "pointer" ,color:"white"}}
-              />
+              <TagOutlined 
+                style={{ fontSize: "30px", cursor: "pointer" ,color:"white", marginTop:'15px'}}
+              ></TagOutlined>
+              
             </Badge>
           </Link>
         </div>
         <div className="favorites">
         <Link to="/favorites">
             <Badge count={+favoritesLength}>
-              <StarOutlined
-                style={{ fontSize: "25px", cursor: "pointer" ,color:"white"}}
+              <BookOutlined
+                style={{ fontSize: "25px", cursor: "pointer" ,color:"white",  marginTop:'15px'}}
               />
             </Badge>
           </Link>
-        </div>
-        </div>
-      </nav>
-      <Menu className="burger-menu"
-       active={menuActive} setActive={setMenuActive}  items={NAV_ITEMS}/>
-      
-      <div className="navbar">
-        {NAV_ITEMS.map((item) => (
-          <Link
-            to={item.link}
-            className={
-              location.pathname === item.link
-                ? "navbar__item-active"
-                : "navbar__item"
-            }
-          >
-            {item.title}
-          </Link>
-        ))}
 
-        {email === "sereuspro94@gmail.com" ? (
+        </div>
+        <div className="navbar">
+        {email === "emir6816@gmail.com" ? (
           <Link
             className={
               location.pathname === "/admin"
@@ -147,12 +102,45 @@ const Header = () => {
             }
             to="/admin"
           >
-            ADMIN
+             <Button className="btnn">Adminka</Button>
           </Link>
         ) : null}
+        
+
       </div>
       
-    </>
+
+          
+      </div>
+      <p className="greetings">
+      Welcome, {email ? (
+       <span>{email}</span>
+          ) : 
+          <span>Гость</span>}
+          </p>
+      {NAV_ITEMS.map((item) => (
+          <Link
+            to={item.link}
+            className={
+              location.pathname === item.link
+                ? "navbar__item-active"
+                : "navbar__item"
+            }
+          >
+            <Button className="btnn">{item.title}</Button>
+          </Link>
+        ))}
+      <div className="right-nav">
+      
+
+        
+        </div>
+      </nav>
+      <Menu className="burger-menu"
+       active={menuActive} setActive={setMenuActive}  items={NAV_ITEMS}/>
+      
+      
+    </div>
   );
 };
 

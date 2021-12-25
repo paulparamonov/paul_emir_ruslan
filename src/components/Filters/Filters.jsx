@@ -1,35 +1,21 @@
 import React, { useContext, useEffect } from "react";
 import { Select, Slider } from "antd";
-import { brandsContext } from "../../contexts/brandsContext";
+import './F.css'
 
-const Filters = ({ brand, setBrand, price, setPrice }) => {
-  const { getBrands, brands } = useContext(brandsContext);
+const Filters = ({  price, setPrice }) => {
   useEffect(() => {
-    getBrands();
   }, []);
   return (
     <div style={{ marginTop: "20px" }}>
-      <Select
-        allowClear
-        style={{ width: "100%" }}
-        value={brand}
-        onChange={(e) => setBrand(e)}
-        mode="multiple"
-        placeholder="Filter by brand"
-      >
-        {brands.map((item) => (
-          <Select.Option value={item.brand} key={item.id}>
-            {item.brand}
-          </Select.Option>
-        ))}
-      </Select>
+     
       <Slider
+      className="f"
         value={price}
         onChange={(e) => setPrice(e)}
         range
-        defaultValue={[1, 1000000]}
+        defaultValue={[1, 10000]}
         min={0}
-        max={1000000}
+        max={10000}
         step={100}
       />
     </div>

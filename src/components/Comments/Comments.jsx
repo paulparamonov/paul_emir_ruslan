@@ -18,7 +18,7 @@ const Comments = ({id}) => {
         <List.Item
     
         
-          actions={email === "sereuspro94@gmail.com"?[
+          actions={email === "emir6816@gmail.com"?[
             <button key="list-loadmore-edit" onClick={() => deleteComment(item.id, id)}>
               delete
             </button>,

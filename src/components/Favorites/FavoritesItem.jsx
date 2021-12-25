@@ -35,63 +35,32 @@ const FavoritesItem = ({ item }) => {
       extra={<img width={100} alt="img" src={item.item.image1} />}
     >
       <List.Item.Meta
-        title={
-          <div
-            style={{
-              display: "flex",
-              justifyContent: "space-between",
-              alignItems: "center",
-            }}
-          >
-            <div>
-              <h3>{item.item.brand}</h3>
-              <h4>{item.item.model}</h4>
-            </div>
-            <h3>{"$" + item.item.price}</h3>
-          </div>
-        }
+      
         description={
           <>
-            
-
+          
             <div
               style={{
                 display: "flex",
                 justifyContent: "space-between",
                 width: "40%",
                 marginTop: "20px",
+                alignItems: 'center'
               }}
             >
+            
               <div>
-                <h4>Quantity</h4>
-                <Button
-                  onClick={() =>
-                    changeProductCount(item.count - 1, item.item.id)
-                  }
-                >
-                  -
-                </Button>
-                <InputNumber value={item.count} disabled />
-                <Button
-                  onClick={() =>
-                    changeProductCount(item.count + 1, item.item.id)
-                  }
-                >
-                  +
-                </Button>
-              </div>
-              <div>
-                <h4>SubPrice</h4>
+                <h4>Цена</h4>
                 <h3>{"$" + item.subPrice}</h3>
               </div>
             </div>
             <Button onClick={() => deleteFromFavorites(item.item.id)}>
-              Remove from Favorites
+              Delete
             </Button>
             <Button
                 onClick={() => addProductToCart(item.item)
           }>
-                {checkItemInCart(item.item.id) ? 'REMOVE FROM CART' : 'ADD TO CART'}
+                {checkItemInCart(item.item.id) ? 'Delete' : 'Add bay'}
             </Button>
           </>
         }

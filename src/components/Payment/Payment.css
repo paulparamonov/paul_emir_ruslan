@@ -4,7 +4,78 @@
     flex-wrap: wrap;
     margin-top: 20px;
   }
-  
+
+
+  .img1{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+  }
+  .subscribe__input {
+  border-radius: 14px;
+
+    width: 60%;
+    height: 40px;
+    padding: 12px;
+
+    background: rgb(0, 0, 0);
+    border: 1px solid #e7e7e7;
+    border-right: 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    line-height: 1.1;
+    color: #333;
+    font-style: italic;
+    font-weight: 300;
+}
+
+.subscribe__btn {
+  border-radius: 14px;
+  width: 40%;
+  height: 40px;
+  padding: 12px 30px;
+
+  background-color: #32186d;
+  border: 0;
+  cursor: pointer;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  line-height: 1.1;
+  font-weight: 700;
+  color: #fff;
+  text-transform: uppercase;
+
+  transition: background .2s linear;
+}
+
+.subscribe__btn:hover {
+  background-color: #000000;
+}
+
+.subscribe__btn:focus {
+  outline: 0;
+}
+
+.subscribe__input::placeholder {
+    color: #ccc;
+}
+
+.subscribe__input:focus {
+    outline: 0;
+    border-color: #95e1d3;
+}
+  .oplata{
+
+  }
+  .s{
+    display: flex;
+    flex-direction: row;
+  }
+  .ant-list-item-meta-description{
+    color: white !important;
+  }
   .product-card-table {
     display: flex;
     justify-content: space-between; 

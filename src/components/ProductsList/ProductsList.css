@@ -1,8 +1,38 @@
-.products-search {
-    display: flex;
-    justify-content: space-between;
+
+.fil{
+    background-color: black !important;
+    display: flex !important;
+    /* flex-direction: column; */
+    align-items: center !important; 
+    flex-direction: center !important;
+    width: 200px;
 }
 
+
+.products-search {
+    display: flex;
+    justify-content:flex-end;
+    /* align-items: center; */
+    
+    width: 300px;
+
+}
+.ant-input{
+    background-color: black !important;
+    color: white !important;
+}
+
+.ant-input-search > .ant-input-group > .ant-input-group-addon:last-child .ant-input-search-button:not(.ant-btn-primary){
+    background-color: black;
+    color: aliceblue
+}
+.anticon svg{
+    color: rgb(31, 21, 75);
+}
+.search{
+    /* background-color: black; */
+    width: 300px;
+}
 @media screen and (max-width: 800px) {
     .products-search {
         flex-direction: column;

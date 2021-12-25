@@ -19,64 +19,34 @@ const AddComment = ({id}) => {
       <Form
           name="basic"
           onFinish={onFinish}
+          placeholder="PLACE FOR YOUR TEXT "
+          style={{color:'white'}}
           autoComplete="off"
           layout="vertical"
         >
       <Form.Item
-      
+
             name="comment"
             type="textarea"
             rules={[
               {
                 required: true,
-                message: "Please input comment!",
+                message: "Please paste text!",
               },
             ]}
       >
-      <TextArea rows={4} cols={6} />
+      <TextArea rows={2} cols={6} />
     </Form.Item>
     <Form.Item>
       <Button htmlType="submit"  type="primary">
-        Добавить комментарий
+        Добавтье отзыв 
+        
       </Button>
     </Form.Item>
     </Form>
 
     
-        {/* <Form
-          name="basic"
-          onFinish={onFinish}
-          autoComplete="off"
-          layout="vertical"
-        >
-          <Form.Item
-            label="comment"
-            name="comment"
-            type="textarea"
-            rules={[
-              {
-                required: true,
-                message: "Please input comment!",
-              },
-            ]}
-          >
-            <Input />
-          </Form.Item>
-
-          
-
-          <Form.Item
-            wrapperCol={{
-              offset: 7,
-              span: 13,
-            }}
-          >
-            <Button type="primary" htmlType="submit">
-              Оставить комментарий
-            </Button>
-          </Form.Item>
-        </Form>
-       */}
+      
     </>
   );
 };

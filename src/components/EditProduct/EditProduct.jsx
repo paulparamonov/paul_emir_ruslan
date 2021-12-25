@@ -2,18 +2,15 @@ import React, { useContext, useEffect } from "react";
 import { useNavigate, useParams } from "react-router";
 import { Button, Form, Input, Select, InputNumber } from "antd";
 import { productsContext } from "../../contexts/productsContext";
-import { brandsContext } from "../../contexts/brandsContext";
 
 const EditProduct = () => {
   const params = useParams();
   const navigate = useNavigate();
   const { getOneProduct, oneProduct, updateProduct } =
     useContext(productsContext);
-  const { getBrands, brands } = useContext(brandsContext);
   const [form] = Form.useForm();
   useEffect(() => {
     getOneProduct(params.id);
-    getBrands();
   }, []);
   useEffect(() => {
     form.setFieldsValue(oneProduct);
@@ -32,24 +29,8 @@ const EditProduct = () => {
         layout="vertical"
         form={form}
       >
-        <Form.Item
-          label="Brand"
-          name="brand"
-          rules={[
-            {
-              required: true,
-              message: "Please input brand!",
-            },
-          ]}
-        >
-          <Select>
-            {brands.map((item) => (
-              <Select.Option key={item.id} value={item.brand}>
-                {item.brand}
-              </Select.Option>
-            ))}
-          </Select>
-        </Form.Item>
+        
+
 
         <Form.Item
           label="Model"
